@@ -1,6 +1,12 @@
 # 📋 Personal-Website
 
-A website to apresents my projects &amp; career built with NuxtJS (a VueJS framework) for front-end and .NET (a C# platform).
+A website to apresents my projects &amp; career built with NuxtJS (a VueJS framework) for Front-End and .NET (a C# platform) to my Back-End.
+
+# 💻 Setup 
+
+- `Node 14 or higher`
+- `yarn` or `npm`
+- `VSCode` or any other code editor
 
 # 👩🏻‍💻 How to run
 
