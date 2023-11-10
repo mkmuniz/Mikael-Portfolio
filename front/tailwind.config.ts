@@ -7,9 +7,6 @@ export default <Partial<Config>>{
       colors: {
         primary: ""
       },
-      fontFamily: {
-        roboto: ['roboto']
-      },
       container: {
         padding: {
           DEFAULT: '1rem',
