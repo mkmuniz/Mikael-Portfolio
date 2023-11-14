@@ -1,6 +1,9 @@
-﻿using back.Models;
+﻿using back.Data;
+using back.Models;
+using back.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace back.Controllers
 {
@@ -10,7 +13,17 @@ namespace back.Controllers
     {
         [HttpGet] ActionResult <List<ProjectModel>> getAllProjects()
         {
-            return Ok();
+            try
+            {
+                var data = GetAllProj();
+
+                return data;
+            } catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+
+                return null;
+            }
         }
     }
 }

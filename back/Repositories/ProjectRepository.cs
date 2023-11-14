@@ -15,7 +15,14 @@ namespace back.Repositories
 
         public async Task<List<ProjectModel>> GetAllProjects()
         {
-            return await _dbContext.Projects.ToListAsync();
+            try
+            {
+                return await _dbContext.Projects.ToListAsync();
+            } catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return null;
+            }
         }
     }
 }

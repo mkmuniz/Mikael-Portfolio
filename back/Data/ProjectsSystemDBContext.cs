@@ -1,4 +1,5 @@
 ﻿using back.Models;
+using back.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace back.Data
