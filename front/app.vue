@@ -3,6 +3,7 @@
         <Navbar />
         <Header />
         <StacksContent />
+        <ProjectsContent />
         <MainContent />
         <Footer />
     </div>

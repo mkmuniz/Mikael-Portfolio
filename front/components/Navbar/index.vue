@@ -1,9 +1,6 @@
 <template>
-    <div class="w-full border-b-black border grid grid-cols-3">
-        <div class="w-full">
-
-        </div>
-        <div class="w-full">
+    <div class="w-full border-b-black border">
+        <div class="w-full flex items-center justify-center">
             <ul class="flex space-x-3 text-xl m-3">
                 <li>
                     <NuxtLink to="#about" class="hover:text-gray-600 transition-all">
@@ -26,9 +23,6 @@
                     </NuxtLink>
                 </li>
             </ul>
-        </div>
-        <div class="w-full text-center">
-            <Icon class="text-5xl" name="ri:account-circle-fill" color="black" />
         </div>
     </div>
 </template>
