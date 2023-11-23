@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar />
-        <Header />
+        <HeaderHome />
         <StacksContent />
         <ProjectsContent />
         <MainContent />
