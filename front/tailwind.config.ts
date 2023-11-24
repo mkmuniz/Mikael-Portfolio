@@ -1,11 +1,13 @@
 import type { Config } from 'tailwindcss'
-import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
     theme: {
     extend: {
       colors: {
-        primary: ""
+        standard: "#FC1616"
+      },
+      fontFamily: {
+        hubot: ['HUBOT', 'cursive'],
       },
       container: {
         padding: {
