@@ -14,8 +14,19 @@
                 <div class="w-11/12 h-3/6 rounded bg-slate-700">
 
                 </div>
-                <div class="w-11/12 h-1/6 rounded bg-slate-700">
+                <div class="w-11/12 h-1/6 rounded bg-slate-700 grid grid-cols-4 space-x-4 items-center justify-items-center">
+                    <div class="bg-red-600 w-2/5 h-1/6 rounded">
 
+                    </div>
+                    <div class="bg-red-600 w-2/5 h-1/6 rounded">
+
+                    </div>
+                    <div class="bg-red-600 w-2/5 h-1/6 rounded">
+
+                    </div>
+                    <div class="bg-red-600 w-2/5 h-1/6 rounded">
+
+                    </div>
                 </div>
             </div>
             <div class="w-full flex flex-col space-y-4 justify-center items-center">
@@ -25,5 +36,4 @@
             </div>
         </div>
     </div>
-    <h1>Teste</h1>
 </template>

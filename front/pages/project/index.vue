@@ -1,4 +1,3 @@
 <template>
-    <Navbar />
     <HeaderProject />
 </template>
