@@ -1,5 +1,8 @@
 <template>
-    <div class="w-full text-white font-hubot">
+    <div class="w-full text-white font-hubot flex">
+        <NuxtLink to="/">
+            <NuxtImg src="/images/logo.png" class="w-16 ml-6" />
+        </NuxtLink>
         <div class="w-full flex items-center justify-end">
             <ul class="flex space-x-3 text-xl m-3">
                 <li>

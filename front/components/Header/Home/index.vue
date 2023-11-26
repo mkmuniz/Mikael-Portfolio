@@ -10,10 +10,10 @@
                         Full Stack Developer
                     </p>
                     <div class="flex space-x-3 ml-1">
-                        <NuxtLink to="https://github.com/mkmuniz" class="text-4xl transition-all hover:text-standard">
+                        <NuxtLink to="https://github.com/mkmuniz" target="_blank" class="text-4xl transition-all hover:text-standard">
                             <Icon name="uil:github" />
                         </NuxtLink>
-                        <NuxtLink to="https://www.linkedin.com/in/mikael-muniz-ribeiro-5764961a3/" class="text-4xl transition-all hover:text-standard">
+                        <NuxtLink to="https://www.linkedin.com/in/mikael-muniz-ribeiro-5764961a3/" target="_blank" class="text-4xl transition-all hover:text-standard">
                             <Icon name="uil:linkedin" />
                         </NuxtLink>
                     </div>
