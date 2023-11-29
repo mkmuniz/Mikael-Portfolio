@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image'],
   devServer: {
     port: Number(process.env.PORT)
+  },
+  hooks: {
+    'close': () => {
+
+    }
   }
 })

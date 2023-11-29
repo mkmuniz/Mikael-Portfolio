@@ -19,6 +19,9 @@
                     </div>
                 </span>
             </div>
+            <div class="w-full flex items-center justify-center">
+                <NuxtImg src="/images/logo.png" />
+            </div>
         </div>
     </div>
 </template>
