@@ -55,7 +55,7 @@
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
-                    <span class="text-base font-medium">Kubernetes</span>
+                    <span class="text-base font-medium">Python</span>
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-10/12"></div>
@@ -63,7 +63,7 @@
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
-                    <span class="text-base font-medium">AWS</span>
+                    <span class="text-base font-medium">Kubernetes</span>
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-9/12"></div>
@@ -71,7 +71,7 @@
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
-                    <span class="text-base font-medium">Python</span>
+                    <span class="text-base font-medium">AWS</span>
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-8/12"></div>
