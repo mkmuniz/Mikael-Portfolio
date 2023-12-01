@@ -13,20 +13,18 @@ namespace BackEnd.Repositories
             _dbContext = dbContext;
         }
 
-        public Task<ProjectModel> AddProject(ProjectModel project)
+        public async Task<ProjectModel> AddProject(ProjectModel project)
         {
-            try
-            {
-                _dbContext.Projects.Add(project);
+                ProjectModel projectModel = new ProjectModel{
+                    Id = 0,
+                    Name = "Mikael",
+                    Description = "Testando"
+                };
+
+                _dbContext.Projects.Add(projectModel);
                 _dbContext.SaveChanges();
 
-                return Task.FromResult(project);
-            } catch (Exception ex)
-            {
-                Console.WriteLine($"{ex.Message}");
-
-                return null;
-            }
+                return project;
         }
 
         public async Task<List<ProjectModel>?> GetAllProjects()

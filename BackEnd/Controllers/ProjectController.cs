@@ -23,5 +23,13 @@ namespace BackEnd.Controllers
                 return new List<ProjectModel>();
             }
         }
+
+        [HttpPost()]
+        public async Task<ActionResult<ProjectModel>> AddProject([FromBody] ProjectModel project)
+        {
+            ProjectModel projectResult = await _projectRepository.AddProject(project);
+
+            return Ok(projectResult);
+        }
     }
 }

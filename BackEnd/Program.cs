@@ -9,8 +9,18 @@ namespace BackEnd
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
-            // Add services to the container.
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.AllowAnyOrigin();
+                                      builder.AllowAnyHeader();
+                                      builder.AllowAnyMethod();
+                                  });
+            });
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -32,8 +42,9 @@ namespace BackEnd
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            app.UseCors(MyAllowSpecificOrigins);
 
+            app.UseAuthorization();
 
             app.MapControllers();
 
