@@ -8,6 +8,9 @@
         <NuxtLink to="#experience">EXPERIENCE</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="#skills">SKILLS</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="#projects">PROJECTS</NuxtLink>
       </li>
       <li>

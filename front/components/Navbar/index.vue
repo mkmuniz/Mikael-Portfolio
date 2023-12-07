@@ -20,6 +20,13 @@
                     </NuxtLink>
                 </li>
                 <li>
+                    <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">
+                        SKILLS
+                        <span
+                            class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
+                    </NuxtLink>
+                </li>
+                <li>
                     <NuxtLink to="#projects" class="group hover:text-standard transition duration-300">
                         PROJECTS
                         <span
