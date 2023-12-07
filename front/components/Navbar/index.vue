@@ -49,7 +49,7 @@ export default {
   data() 
   {
     return {
-      status: Boolean
+      status: false
     }
   },
   components: {

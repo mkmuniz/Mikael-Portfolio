@@ -20,7 +20,7 @@ export default {
     },
     data() {
         return {
-            isOpen: Boolean,
+            isOpen: false,
             genericHamburgerLine: `h-1 w-6 my-1 z-50 rounded-full bg-white transition ease transform duration-300`
         };
     },
