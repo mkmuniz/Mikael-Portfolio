@@ -1,8 +1,16 @@
 import type { Config } from 'tailwindcss'
 
 export default <Partial<Config>>{
-    theme: {
+  content: [
+    // other files...
+    "./node_modules/flowbite/**/*.{js,ts}"
+  ],
+  theme: {
     extend: {
+      plugins: [
+        require('flowbite/plugin')
+      ],
+
       colors: {
         standard: "#FC1616"
       },
