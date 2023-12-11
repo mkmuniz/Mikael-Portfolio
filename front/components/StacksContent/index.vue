@@ -1,10 +1,10 @@
 <template>
     <div class="grid sm:grid-cols-2 w-full h-screen bg-white font-hubot">
         <div class="flex flex-col w-full items-center justify-center">
-            <span class="text-4xl mb-12 justify-center">
+            <span class="text-4xl mb-12 justify-center m-6">
                 ABOUT MY CAREER & SKILLS
             </span>
-            <div class="text-center">
+            <div class="text-center m-6">
                 <p>
                     Actually, I have more than 3 years experience as software engineer. Working mainly
                     with NodeJS, React (and his frameworks like NextJS), GoLang & TypeScript. Also, another
