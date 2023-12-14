@@ -1,7 +1,7 @@
 <template>
     <div class="grid sm:grid-cols-2 w-full h-screen bg-white font-hubot">
         <div class="flex flex-col w-full items-center justify-center">
-            <span class="text-4xl mb-12 justify-center m-6">
+            <span class="text-4xl mb-12 justify-center m-6 text-center">
                 ABOUT MY CAREER & SKILLS
             </span>
             <div class="text-center m-6">
@@ -15,35 +15,35 @@
         <div class="flex flex-col items-center justify-center w-full h-full text-black font-hubot">
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
-                    <span class="text-base font-medium">NodeJS</span>
+                    <span class="text-base font-medium">NodeJS 3+ years</span>
                 </div>
-                <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
+                <!-- <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-full"></div>
-                </div>
+                </div> -->
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
-                    <span class="text-base font-medium">TypeScript</span>
+                    <span class="text-base font-medium">TypeScript 3+ years</span>
                 </div>
-                <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
+                <!-- <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-full"></div>
-                </div>
+                </div> -->
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
-                    <span class="text-base font-medium">NextJS</span>
+                    <span class="text-base font-medium">NextJS 3+ years</span>
                 </div>
-                <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
+                <!-- <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-full"></div>
-                </div>
+                </div> -->
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
                     <span class="text-base font-medium">Docker</span>
                 </div>
-                <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
+                <!-- <div class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
                     <div class="bg-standard h-1.5 rounded-full w-full"></div>
-                </div>
+                </div> -->
             </div>
             <div class="w-4/6">
                 <div class="flex justify-between mb-1">
