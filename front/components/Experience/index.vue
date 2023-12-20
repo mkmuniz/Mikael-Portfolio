@@ -31,12 +31,12 @@ onMounted(() => {
 </script>
 
 <template>
-    <div id="default-carousel" class="relative w-full font-hubot text-white" data-carousel="slide">
+    <div id="default-carousel" class="relative w-full font-hubot text-white sm:text-left text-center" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-screen overflow-hidden">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-2 h-screen">
+                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                     <div class="w-full h-full flex flex-col justify-center">
                         <div class="m-6">
                             <span class="text-4xl">
@@ -63,7 +63,7 @@ onMounted(() => {
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-2 h-screen">
+                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                     <div class="w-full h-full flex flex-col justify-center">
                         <div class="m-6">
                             <span class="text-4xl">
@@ -93,7 +93,7 @@ onMounted(() => {
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-2 h-screen">
+                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                     <div class="w-full h-full flex flex-col justify-center">
                         <div class="m-6">
                             <span class="text-4xl">
@@ -116,7 +116,7 @@ onMounted(() => {
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid grid-cols-2 h-screen">
+                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                     <div class="w-full h-full flex flex-col justify-center">
                         <div class="m-6">
                             <span class="text-4xl">

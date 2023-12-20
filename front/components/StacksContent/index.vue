@@ -13,7 +13,7 @@
             </div>
         </div>
         <div
-            class="grid grid-cols-3 grid-rows-2 text-center align-middle place-items-center items-center sm:mb-0 mb-12 w-full h-full text-black font-hubot">
+            class="grid grid-cols-3 grid-rows-3 text-center align-middle place-items-center items-center sm:mb-0 mb-12 w-full h-full text-black font-hubot">
             <div class="w-2/4 flex justify-center">
                 <NuxtImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5cOmlPaYYp1b9cqW_ZdX91Vt45YnKrwHDpw7GDyPlGA&s" class="w-12" />
             </div>
@@ -31,6 +31,15 @@
             </div>
             <div class="w-2/4 flex justify-center">
                 <NuxtImg src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_docker_icon_157978.png" class="w-12" />
+            </div>
+            <div class="w-2/4 flex justify-center">
+                <NuxtImg src="https://cdn.iconscout.com/icon/free/png-256/free-aws-3215369-2673787.png" class="w-12" />
+            </div>
+            <div class="w-2/4 flex justify-center">
+                <NuxtImg src="https://cdn-icons-png.flaticon.com/128/2748/2748233.png" class="w-12" />
+            </div>
+            <div class="w-2/4 flex justify-center">
+                <NuxtImg src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="w-12" />
             </div>
         </div>
     </div>
