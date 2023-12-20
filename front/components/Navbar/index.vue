@@ -1,10 +1,10 @@
 <template>
-    <div class="w-screen text-white font-hubot flex relative">
+    <nav class="w-screen text-white h-full font-hubot flex">
         <NuxtLink to="/">
             <NuxtImg src="/images/logo.png" class="w-12 m-6" />
         </NuxtLink>
-        <div class="w-full sm:flex items-center justify-end overflow-hidden">
-            <ul class="sm:flex space-x-3 text-xl m-3 sm:visible hidden">
+        <div :class="['w-full sm:flex items-center justify-end overflow-hidden sm:visible hidden']">
+            <ul class="sm:flex space-x-3 text-xl m-3">
                 <li>
                     <NuxtLink to="#about" class="group hover:text-standard transition duration-300">
                         ABOUT ME
@@ -42,11 +42,11 @@
                 </li>
             </ul>
         </div>
+        <SideNavBar :status="status" />
         <div class="sm:hidden visible w-full flex items-center justify-end">
             <HamburgerButton :getNavBarStatus="getNavBarStatus" />
         </div>
-    </div>
-    <SideNavBar :status="status" />
+    </nav>
 </template>
 
 <script>
