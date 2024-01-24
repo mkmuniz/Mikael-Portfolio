@@ -32,17 +32,16 @@ onMounted(() => {
 
 <template>
     <div id="default-carousel" class="relative w-full font-hubot text-white sm:text-left text-center" data-carousel="slide">
-        <!-- Carousel wrapper -->
         <div class="relative h-screen overflow-hidden">
-            <!-- Item 1 -->
             <div class="hidden duration-700 h-screen ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="w-full flex items-center justify-center">
                             <a href="https://mackleaps.mackenzie.br" target="_blank"
                                 className="flex items-center justify-center">
-                                <NuxtImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
-                                    class="min-w-[200px] max-w-[400px] w-2/5" />
+                                <NuxtImg
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
+                                    class="min-w-[200px] max-w-[800px] w-2/5" />
                             </a>
                         </div>
                         <div class="w-full sm:h-full flex flex-col justify-center">
@@ -66,15 +65,15 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
-            <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                        <div class="flex items-center place-items-center">
+                        <div class="w-full flex items-center justify-center">
                             <a href="https://mackleaps.mackenzie.br" target="_blank"
                                 className="flex items-center justify-center">
-                                <NuxtImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
-                                    class="min-w-[200px] max-w-[400px] w-2/5" />
+                                <NuxtImg
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
+                                    class="min-w-[200px] max-w-[800px] w-2/5" />
                             </a>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
@@ -100,13 +99,13 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
-            <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="agentesdev.com.br" target="_blank" className="flex items-center justify-center">
-                                <NuxtImg src="images/agentes-dev.png" class="min-w-[200px] max-w-[400px] w-2/5 rounded-full" />
+                                <NuxtImg :src="'images/agentes-dev.png'"
+                                    class="min-w-[200px] max-w-[800px] w-2/5 rounded-full" />
                             </a>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
@@ -127,14 +126,15 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
-            <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
-                            <a href="https://www.sossego.com.br" target="_blank" className="flex items-center justify-center">
-                                <NuxtImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85LSmkiQY8CIEhzNduCTJHALMITmE762Kw4fBjFavy61W7zseUE-dDlRONPEM04wrcp8&usqp=CAU"
-                                    class="min-w-[200px] mb-12 rounded-full max-w-[400px] w-2/5" />
+                            <a href="https://www.sossego.com.br" target="_blank"
+                                className="flex items-center justify-center">
+                                <NuxtImg
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85LSmkiQY8CIEhzNduCTJHALMITmE762Kw4fBjFavy61W7zseUE-dDlRONPEM04wrcp8&usqp=CAU"
+                                    class="min-w-[200px] mb-12 rounded-full max-w-[800px] w-2/5" />
                             </a>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
@@ -159,8 +159,9 @@ onMounted(() => {
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="https://www.bolha.com.br" target="_blank" className="flex items-center justify-center">
-                                <NuxtImg src="https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png"
-                                    class="min-w-[200px] mb-12 max-w-[400px] w-2/5" />
+                                <NuxtImg
+                                    src="https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png"
+                                    class="min-w-[200px] mb-12 max-w-[800px] w-2/5" />
                             </a>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
@@ -181,7 +182,6 @@ onMounted(() => {
                 </div>
             </div>
         </div>
-        <!-- Slider indicators -->
         <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
             <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
                 data-carousel-slide-to="0"></button>
