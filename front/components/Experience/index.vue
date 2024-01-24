@@ -41,7 +41,7 @@ onMounted(() => {
                         <div class="w-full flex items-center justify-center">
                             <a href="https://mackleaps.mackenzie.br" target="_blank"
                                 className="flex items-center justify-center">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
+                                <NuxtImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
                                     class="min-w-[200px] max-w-[400px] w-2/5" />
                             </a>
                         </div>
@@ -73,7 +73,7 @@ onMounted(() => {
                         <div class="flex items-center place-items-center">
                             <a href="https://mackleaps.mackenzie.br" target="_blank"
                                 className="flex items-center justify-center">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
+                                <NuxtImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
                                     class="min-w-[200px] max-w-[400px] w-2/5" />
                             </a>
                         </div>
@@ -88,13 +88,12 @@ onMounted(() => {
                                     interns, leadership, tasks
                                     organizations, project
                                     management & development in
-                                    Back-End and Front-End
-                                    Participated in Associação
-                                    Comercial de São Paulo website
+                                    Back-End and Front-End.
+                                    Participated in ACSP website
                                     development
                                     TypeScript, React, NodeJS, Python,
-                                    NestJS, C#, Docker, Ruby,
-                                    Postgresql, MongoDB, MySQL.
+                                    NestJS, Docker, Ruby,
+                                    PostgreSQL, MongoDB & MySQL.
                                 </span>
                             </div>
                         </div>
@@ -107,7 +106,7 @@ onMounted(() => {
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="agentesdev.com.br" target="_blank" className="flex items-center justify-center">
-                                <img src="images/agentes-dev.png" class="min-w-[200px] max-w-[400px] w-2/5 rounded-full" />
+                                <NuxtImg src="images/agentes-dev.png" class="min-w-[200px] max-w-[400px] w-2/5 rounded-full" />
                             </a>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
@@ -134,7 +133,7 @@ onMounted(() => {
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="https://www.sossego.com.br" target="_blank" className="flex items-center justify-center">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85LSmkiQY8CIEhzNduCTJHALMITmE762Kw4fBjFavy61W7zseUE-dDlRONPEM04wrcp8&usqp=CAU"
+                                <NuxtImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85LSmkiQY8CIEhzNduCTJHALMITmE762Kw4fBjFavy61W7zseUE-dDlRONPEM04wrcp8&usqp=CAU"
                                     class="min-w-[200px] mb-12 rounded-full max-w-[400px] w-2/5" />
                             </a>
                         </div>
@@ -160,7 +159,7 @@ onMounted(() => {
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="https://www.bolha.com.br" target="_blank" className="flex items-center justify-center">
-                                <img src="https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png"
+                                <NuxtImg src="https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png"
                                     class="min-w-[200px] mb-12 max-w-[400px] w-2/5" />
                             </a>
                         </div>
