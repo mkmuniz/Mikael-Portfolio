@@ -35,105 +35,149 @@ onMounted(() => {
         <!-- Carousel wrapper -->
         <div class="relative h-screen overflow-hidden">
             <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                    <div class="w-full h-full flex flex-col justify-center">
-                        <div class="m-6">
-                            <span class="text-4xl">
-                                MACKLEAPS - Full Stack Intern
-                            </span>
-                            <p class="text-xl">06/2020 - 06/2022</p>
-                            <span class="mt-2">
-                                Technical leadership, development
-                                and support in projects
-                                Participated in Oriente platform
-                                development.
-                                Developed MackLeaps website.
-                                Javascript, Typescript, React,
-                                NodeJS, Go, Java, Docker, APIs REST,
-                                SQL, GitHub, SOLID, GitLab.
-                            </span>
+            <div class="hidden duration-700 h-screen ease-in-out select-none" data-carousel-item>
+                <div className="flex items-center justify-center h-screen">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
+                        <div class="w-full flex items-center justify-center">
+                            <a href="https://mackleaps.mackenzie.br" target="_blank"
+                                className="flex items-center justify-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
+                                    class="min-w-[200px] max-w-[400px] w-2/5" />
+                            </a>
                         </div>
-                    </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
-                            class="w-2/5" />
+                        <div class="w-full sm:h-full flex flex-col justify-center">
+                            <div class="sm:m-6">
+                                <span class="text-4xl lg:text-6xl">
+                                    MACKLEAPS - Full Stack Intern
+                                </span>
+                                <p class="text-xl lg:text-3xl mb-12">06/2020 - 06/2022</p>
+                                <span class="lg:text-2xl">
+                                    Technical leadership, development
+                                    and support in projects
+                                    Participated in Oriente platform
+                                    development.
+                                    Developed MackLeaps website.
+                                    Javascript, Typescript, React,
+                                    NodeJS, Go, Java, Docker, APIs REST,
+                                    SQL, GitHub, SOLID, GitLab.
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                    <div class="w-full h-full flex flex-col justify-center">
-                        <div class="m-6">
-                            <span class="text-4xl">
-                                MACKLEAPS - Full Stack Developer
-                            </span>
-                            <p class="text-xl">08/2022 - 01/2023</p>
-                            <span class="mt-2">
-                                Responsible by guide & teach new
-                                interns, leadership, tasks
-                                organizations, project
-                                management & development in
-                                Back-End and front-End
-                                Participated in Associação
-                                Comercial de São Paulo website
-                                development
-                                TypeScript, React, NodeJS, Python,
-                                NestJS, C#, Docker, Ruby,
-                                Postgresql, MongoDB, MySQL.
-                            </span>
+            <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
+                <div className="flex items-center justify-center h-screen">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
+                        <div class="flex items-center place-items-center">
+                            <a href="https://mackleaps.mackenzie.br" target="_blank"
+                                className="flex items-center justify-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
+                                    class="min-w-[200px] max-w-[400px] w-2/5" />
+                            </a>
                         </div>
-                    </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png"
-                            class="w-2/5" />
+                        <div class="w-full h-full flex flex-col justify-center">
+                            <div class="sm:m-6">
+                                <span class="text-4xl lg:text-6xl">
+                                    MACKLEAPS - Full Stack Developer
+                                </span>
+                                <p class="text-xl lg:text-3xl mb-12">08/2022 - 01/2023</p>
+                                <span class="lg:text-2xl">
+                                    Responsible by guide & teach new
+                                    interns, leadership, tasks
+                                    organizations, project
+                                    management & development in
+                                    Back-End and Front-End
+                                    Participated in Associação
+                                    Comercial de São Paulo website
+                                    development
+                                    TypeScript, React, NodeJS, Python,
+                                    NestJS, C#, Docker, Ruby,
+                                    Postgresql, MongoDB, MySQL.
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                    <div class="w-full h-full flex flex-col justify-center">
-                        <div class="m-6">
-                            <span class="text-4xl">
-                                AgentesDev - Full Stack Developer
-                            </span>
-                            <p class="text-xl">06/2022 - Current</p>
-                            <span class="mt-2">
-                                Participated in UJL Portal
-                                Web scraper development.
-                                TypeScript, JavaScript, Express
-                                NextJS, HTML5, CSS, Sass Tailwind
-                                & Python
-                            </span>
+            <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
+                <div className="flex items-center justify-center h-screen">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
+                        <div class="flex items-center justify-center">
+                            <a href="agentesdev.com.br" target="_blank" className="flex items-center justify-center">
+                                <img src="images/agentes-dev.png" class="min-w-[200px] max-w-[400px] w-2/5 rounded-full" />
+                            </a>
                         </div>
-                    </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img src="https://www.agentesdev.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" />
+                        <div class="w-full h-full flex flex-col justify-center">
+                            <div class="sm:m-6">
+                                <span class="text-4xl lg:text-6xl">
+                                    AgentesDev - Full Stack Developer
+                                </span>
+                                <p class="text-xl lg:text-3xl mb-12">06/2022 - Current</p>
+                                <span class="lg:text-2xl">
+                                    Participated in UJL Portal
+                                    Web scraper development.
+                                    TypeScript, JavaScript, Express
+                                    NextJS, HTML5, CSS, Sass Tailwind
+                                    & Python
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                    <div class="w-full h-full flex flex-col justify-center">
-                        <div class="m-6">
-                            <span class="text-4xl">
-                                Sossego - Back-End Developer
-                            </span>
-                            <p class="text-xl">01/2023 - 08/2023</p>
-                            <span class="mt-2">
-                                Encharged to create &
-                                maintenance robots for webscraping using Playwright, NodeJS,
-                                NestJS, Python, Docker &
-                                development in API's.
-                            </span>
+            <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
+                <div className="flex items-center justify-center h-screen">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
+                        <div class="flex items-center justify-center">
+                            <a href="https://www.sossego.com.br" target="_blank" className="flex items-center justify-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85LSmkiQY8CIEhzNduCTJHALMITmE762Kw4fBjFavy61W7zseUE-dDlRONPEM04wrcp8&usqp=CAU"
+                                    class="min-w-[200px] mb-12 rounded-full max-w-[400px] w-2/5" />
+                            </a>
+                        </div>
+                        <div class="w-full h-full flex flex-col justify-center">
+                            <div class="sm:m-6">
+                                <span class="text-4xl lg:text-6xl">
+                                    Sossego - Back End Developer
+                                </span>
+                                <p class="text-xl lg:text-3xl mb-12">01/2023 - 08/2023</p>
+                                <span class="lg:text-2xl">
+                                    Encharged to create &
+                                    maintenance robots for webscraping using Playwright, NodeJS,
+                                    NestJS, Python, Docker &
+                                    development in API's.
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85LSmkiQY8CIEhzNduCTJHALMITmE762Kw4fBjFavy61W7zseUE-dDlRONPEM04wrcp8&usqp=CAU" class="2/5" />
+                </div>
+            </div>
+            <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
+                <div className="flex items-center justify-center h-screen">
+                    <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
+                        <div class="flex items-center justify-center">
+                            <a href="https://www.bolha.com.br" target="_blank" className="flex items-center justify-center">
+                                <img src="https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png"
+                                    class="min-w-[200px] mb-12 max-w-[400px] w-2/5" />
+                            </a>
+                        </div>
+                        <div class="w-full h-full flex flex-col justify-center">
+                            <div class="sm:m-6">
+                                <span class="text-4xl lg:text-6xl">
+                                    Bolha - Full Stack Developer
+                                </span>
+                                <p class="text-xl lg:text-3xl mb-12">01/2024 - Current</p>
+                                <span class="lg:text-2xl">
+                                    Encharged to
+                                    develop/maintenance websites
+                                    and APIs for our clients using Next JS/React,
+                                    PHP, Cosmic, Strapi, TypeScript, NodeJS & AWS.
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,6 +191,8 @@ onMounted(() => {
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
                 data-carousel-slide-to="2"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
                 data-carousel-slide-to="3"></button>
         </div>
         <!-- Slider controls -->
@@ -176,4 +222,5 @@ onMounted(() => {
                 <span class="sr-only">Next</span>
             </span>
         </button>
-</div></template>
+    </div>
+</template>
