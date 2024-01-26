@@ -43,7 +43,7 @@
                     </li>
                 </ul>
             </div>
-            <div className="flex justify-end items-center m-6">
+            <div class="flex justify-end items-center">
                 <HamburgerButton :getNavBarStatus="getNavBarStatus" />
             </div>
         </div>
