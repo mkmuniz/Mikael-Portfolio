@@ -1,8 +1,8 @@
 <template>
     <nav class="text-white w-full font-hubot flex justify-center">
         <div class="flex w-screen 3xl:container 3xl:mx-auto">
-            <NuxtLink to="/">
-                <NuxtImg src="/images/logo.png" class="w-12 m-6" />
+            <NuxtLink to="/" class="flex items-center justify-center">
+                <NuxtImg src="/images/logo.png" class="w-12" />
             </NuxtLink>
             <div :class="['w-full sm:flex items-center justify-end overflow-hidden']">
                 <ul class="sm:visible hidden sm:flex space-x-3 text-xl m-6">
