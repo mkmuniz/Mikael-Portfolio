@@ -1,7 +1,7 @@
 <template>
   <div
-    :class="['absolute h-screen z-30 sm:hidden', status ? '-translate-x-0' : '-translate-x-full', 'overflow-y-auto transition duration-150 ease-in-out bg-standard w-48']">
-    <ul class="m-6 space-y-1">
+    :class="['absolute h-screen z-30', status ? '-translate-x-0' : '-translate-x-full', 'overflow-y-auto transition duration-150 ease-in-out bg-standard w-48']">
+    <ul class="m-6 mt-24 space-y-1">
       <li>
         <NuxtLink to="#about">ABOUT ME</NuxtLink>
       </li>
