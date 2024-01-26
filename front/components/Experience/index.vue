@@ -34,7 +34,7 @@ onMounted(() => {
     <div id="default-carousel" class="relative w-full font-hubot text-white sm:text-left text-center" data-carousel="slide">
         <div class="relative h-screen overflow-hidden">
             <div class="hidden duration-700 h-screen ease-in-out select-none" data-carousel-item>
-                <div className="flex items-center justify-center h-screen">
+                <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="w-full flex items-center justify-center">
                             <a href="https://mackleaps.mackenzie.br" target="_blank"
@@ -66,7 +66,7 @@ onMounted(() => {
                 </div>
             </div>
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
-                <div className="flex items-center justify-center h-screen">
+                <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="w-full flex items-center justify-center">
                             <a href="https://mackleaps.mackenzie.br" target="_blank"
@@ -100,10 +100,10 @@ onMounted(() => {
                 </div>
             </div>
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
-                <div className="flex items-center justify-center h-screen">
+                <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
-                            <a href="agentesdev.com.br" target="_blank" className="flex items-center justify-center">
+                            <a href="https://agentesdev.com.br" target="_blank" className="flex items-center justify-center">
                                 <NuxtImg src="https://d1i4dnh5d3693f.cloudfront.net/agentes-dev.png"
                                     class="min-w-[200px] max-w-[800px] w-2/5 rounded-full" />
                             </a>
@@ -127,7 +127,7 @@ onMounted(() => {
                 </div>
             </div>
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
-                <div className="flex items-center justify-center h-screen">
+                <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="https://www.sossego.com.br" target="_blank"
@@ -155,7 +155,7 @@ onMounted(() => {
                 </div>
             </div>
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
-                <div className="flex items-center justify-center h-screen">
+                <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="https://www.bolha.com.br" target="_blank" className="flex items-center justify-center">
