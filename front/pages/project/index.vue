@@ -12,6 +12,4 @@ const { isPending, isError, data, error } = useQuery({
   queryFn: getAllProjects,
 });
 
-console.log(data);
-
 </script>

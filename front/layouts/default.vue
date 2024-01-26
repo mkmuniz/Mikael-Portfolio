@@ -11,6 +11,7 @@ useSeoMeta({
     ogTitle: 'Mikael Muniz Ribeiro - Portfolio',
     description: 'This is my amazing site, let me tell you all about it.',
     ogDescription: 'This is my amazing site, let me tell you all about it.',
+    viewport: 'width=device-width, initial-scale=1',
 })
 </script>
 <style>
