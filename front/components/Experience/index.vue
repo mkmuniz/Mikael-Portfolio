@@ -31,7 +31,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div id="default-carousel" class="relative w-full font-hubot text-white sm:text-left text-center" data-carousel="slide">
+    <div id="experience" class="relative w-full font-hubot text-white sm:text-left text-center" data-carousel="slide">
         <div class="relative h-screen overflow-hidden">
             <div class="hidden duration-700 h-screen ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">

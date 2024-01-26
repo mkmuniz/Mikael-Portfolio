@@ -2,7 +2,7 @@
     <nav class="text-white w-full font-hubot flex justify-center">
         <div class="flex w-screen 3xl:container 3xl:mx-auto">
             <NuxtLink to="/" class="flex items-center justify-center">
-                <NuxtImg src="/images/logo.png" class="w-12" />
+                <NuxtImg src="/images/logo.png" class="w-12 ml-6 mt-2" />
             </NuxtLink>
             <div :class="['w-full sm:flex items-center justify-end overflow-hidden']">
                 <ul class="sm:visible hidden sm:flex space-x-3 text-xl m-6">
@@ -21,21 +21,7 @@
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">
-                            SKILLS
-                            <span
-                                class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
-                        </NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="#projects" class="group hover:text-standard transition duration-300">
-                            PROJECTS
-                            <span
-                                class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
-                        </NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="#contact" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="https://linktr.ee/mkmuniz" class="group hover:text-standard transition duration-300" :target="'_blank'">
                             CONTACT
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
