@@ -104,7 +104,7 @@ onMounted(() => {
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
                         <div class="flex items-center justify-center">
                             <a href="agentesdev.com.br" target="_blank" className="flex items-center justify-center">
-                                <NuxtImg :src="'images/agentes-dev.png'"
+                                <NuxtImg src="https://d1i4dnh5d3693f.cloudfront.net/agentes-dev.png"
                                     class="min-w-[200px] max-w-[800px] w-2/5 rounded-full" />
                             </a>
                         </div>
