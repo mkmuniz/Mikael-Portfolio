@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 
+/** @type {import('tailwindcss').Config} */
 export default <Partial<Config>>{
   content: [
     // other files...
@@ -7,6 +8,9 @@ export default <Partial<Config>>{
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': { 'min': '1440px' }
+      },
       plugins: [
         require('flowbite/plugin')
       ],
