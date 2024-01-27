@@ -40,6 +40,7 @@
                 <HamburgerButton :getNavBarStatus="getNavBarStatus" />
             </div>
         </div>
+        <SideNavBar :status="status" />
     </nav>
 </template>
 
