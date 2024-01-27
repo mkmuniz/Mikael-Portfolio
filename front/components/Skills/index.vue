@@ -2,7 +2,7 @@
     <div class="h-screen bg-white text-center font-bold" id="skills">
         <div class="h-full 3xl:container 3xl:mx-auto flex flex-col items-center justify-center">
             <h1 class="sm:text-6xl 3xl:text-8xl text-4xl">SKILLS</h1>
-            <div class="grid grid-cols-3 content-center place-items-center space-y-6 w-full">
+            <div class="grid sm:grid-cols-3 grid-cols-2 content-center place-items-center space-y-6 w-full">
                 <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" class="w-16 h-16" />
                     <span class="text-xl">
