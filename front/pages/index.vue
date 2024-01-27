@@ -1,11 +1,11 @@
 <template>
     <html class="scroll-smooth">
-    <div>
-        <HeaderHome />
-        <StacksContent />
-        <ProjectsContent />
-        <Experience />
-    </div>
+    <HeaderHome />
+    <About />
+    <ProjectsContent />
+    <Experience />
+    <Skills />
+    <Footer />
     </html>
 </template>
 

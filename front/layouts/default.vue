@@ -2,7 +2,6 @@
     <div class="bg-black">
         <Navbar />
         <slot />
-        <Footer />
     </div>
 </template>
 <script setup lang="ts">
