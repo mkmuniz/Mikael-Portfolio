@@ -1,6 +1,6 @@
 <template>
-    <div class="h-screen bg-white text-center font-bold" id="skills">
-        <div class="h-full 3xl:container 3xl:mx-auto flex flex-col items-center justify-center">
+    <div class="min-h-screen h-full bg-white text-center font-bold grid content-center" id="skills">
+        <div class="h-full container mx-auto">
             <h1 class="sm:text-6xl 3xl:text-8xl text-4xl">SKILLS</h1>
             <div class="grid sm:grid-cols-3 grid-cols-2 content-center place-items-center w-full">
                 <div
