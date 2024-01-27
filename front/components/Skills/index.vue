@@ -3,39 +3,75 @@
         <div class="h-full 3xl:container 3xl:mx-auto flex flex-col items-center justify-center">
             <h1 class="sm:text-6xl 3xl:text-8xl text-4xl">SKILLS</h1>
             <div class="grid sm:grid-cols-3 grid-cols-2 content-center place-items-center w-full">
-                <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" class="w-16 h-16" />
-                    <span class="text-xl">
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                        class="w-16 h-16 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
                         4 years
                     </span>
                 </div>
-                <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" class="w-16 h-16 rounded-lg" />
-                    <span class="text-xl">
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
                         4 years
                     </span>
                 </div>
-                <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  class="w-16 h-16"/>
-                    <span class="text-xl">
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
+                        class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
+                        4 years
+                    </span>
+                </div>
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
+                        class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
+                        4 years
+                    </span>
+                </div>
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                        class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
+                        4 years
+                    </span>
+                </div>
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                        class="w-16 h-16 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
                         3 years
                     </span>
                 </div>
-                <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="w-16 h-16" />
-                    <span class="text-xl">
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+                        class="w-16 h-16 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
                         2 years
                     </span>
                 </div>
-                <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" class="w-16 h-16" />
-                    <span class="text-xl">
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+                        class="w-16 h-16 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
                         2 years
                     </span>
                 </div>
-                <div class="w-40 h-40 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" class="w-16 h-16" />
-                    <span class="text-xl">
+                <div
+                    class="w-40 h-40 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-95 transition-all duration-300">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                        class="w-16 h-16 3xl:h-32 3xl:w-32" />
+                    <span class="text-xl 3xl:text-2xl">
                         2 years
                     </span>
                 </div>
