@@ -1,6 +1,6 @@
 <template>
     <nav class="text-white w-full font-hubot flex justify-center sticky top-0 bg-black z-40">
-        <div :class="['transition-opacity duration-500 h-screen w-screen', status ? 'opacity-50' : 'opacity-0', 'bg-black absolute']" />
+        <div :class="['h-screen w-screen', status ? 'visible' : 'hidden', 'bg-black absolute opacity-50 sm:hidden']" />
         <div class="flex w-screen 3xl:container 3xl:mx-auto">
             <NuxtLink to="/" class="flex items-center justify-center z-30">
                 <NuxtImg src="/images/logo.png" class="w-12 ml-6 mt-2" />
