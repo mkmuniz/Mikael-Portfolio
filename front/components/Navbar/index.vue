@@ -1,7 +1,10 @@
 <template>
     <nav class="text-white w-full font-hubot flex justify-center sticky top-0 bg-black z-40">
+        <div :class="['transition-opacity duration-500 h-screen w-screen', status ? 'opacity-50' : 'opacity-0', 'bg-black absolute']">
+
+        </div>
         <div class="flex w-screen 3xl:container 3xl:mx-auto">
-            <NuxtLink to="/" class="flex items-center justify-center">
+            <NuxtLink to="/" class="flex items-center justify-center z-30">
                 <NuxtImg src="/images/logo.png" class="w-12 ml-6 mt-2" />
             </NuxtLink>
             <div :class="['w-full sm:flex items-center justify-end overflow-hidden']">
