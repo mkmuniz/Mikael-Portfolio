@@ -26,7 +26,7 @@ A web portfolio created to show my projects, experience and career.
 - Open terminal
 - Run `npm i`
 - Run `npm run dev`
-- Access `http://localhost:3000`
+- Access `http://localhost:3000` and you will go into home page as show below
 
-![Screenshot_17](https://github.com/mkmuniz/Mikael-Portfolio/front/assets/65512888/96ddef3e-1339-4e7c-badb-7d3fa2d200df)
+![Screenshot_17](https://github.com/mkmuniz/Mikael-Portfolio/blob/main/front/public/images/home-banner-readme.png)
 
