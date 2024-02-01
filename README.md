@@ -15,9 +15,9 @@ A web portfolio created to show my projects, experience and career.
 
 # ⚙️ Config
 
-`Node > 18.x.x`
+`Node >= 18.x.x`
 
-`npm` or `yarn`
+`npm >= 6.x.x`
 
 # 🖥️ How to run
 
