@@ -4,19 +4,16 @@
             <div class="flex items-center justify-center">
                 <ul class="flex flex-wrap items-center 3xl:text-3xl mb-6 text-sm font-medium sm:mb-0 text-white">
                     <li>
-                        <NuxtLink to="#" class="group hover:text-standard transition duration-300 me-4 md:me-6">ABOUT
+                        <NuxtLink to="#about" class="group hover:text-standard transition duration-300 me-4 md:me-6">ABOUT
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink href="#" class="group hover:text-standard transition duration-300 me-4 md:me-6">GITHUB
+                        <NuxtLink to="https://github.com/mkmuniz" class="group hover:text-standard transition duration-300 me-4 md:me-6" :target="'_blank'">GITHUB
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink href="#" class="group hover:text-standard transition duration-300 me-4 md:me-6">LINKTREE
+                        <NuxtLink to="https://linktr.ee/mkmuniz" class="group hover:text-standard transition duration-300 me-4 md:me-6" :target="'_blank'">LINKTREE
                         </NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink href="#" class="group hover:text-standard transition duration-300">CONTACT</NuxtLink>
                     </li>
                 </ul>
             </div>
