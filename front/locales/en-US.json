@@ -1,0 +1,60 @@
+{
+    "navbar_links": {
+        "about": "ABOUT",
+        "experience": "EXPERIENCE",
+        "skills": "STACKS",
+        "contact": "CONTACT"
+    },
+    "header": {
+        "welcome": "Yo, welcome :)",
+        "role": "Full Stack Developer"
+    },
+    "about": {
+        "title": "ABOUT",
+        "description": "I'm 23 years old, working as a software developer since 2020 on various projects and companies. Currently, I'm a Full Stack developer mainly focused on TypeScript, NodeJS, Python, NextJS (ReactJS), Go, MySQL, PostgreSQL, MongoDB & AWS/GCP."
+    },
+    "experience": {
+        "mackleaps_intern": {
+            "title": "MACKLEAPS - Full Stack Intern",
+            "time": "05/2020 - 05/2022",
+            "description": "Technical leadership, development and support in projects Participated in Oriente platform development. Developed MackLeaps website. Javascript, Typescript, React, NodeJS, Go, Java, Docker, APIs REST, SQL, GitHub, SOLID, GitLab."
+        },
+        "mackleaps_fullstack": {
+            "title": "MACKLEAPS - Full Stack Developer",
+            "time": "08/2022 - 01/2023",
+            "description": "Responsible by guide & teach new interns, leadership, tasks organizations, project management & development in Back-End and Front-End. Participated in ACSP website development TypeScript, React, NodeJS, Python, NestJS, Docker, Ruby, PostgreSQL, MongoDB & MySQL."
+        },
+        "agentesdev_fullstack": {
+            "title": "AgentesDev - Full Stack Developer",
+            "time": "06/2022 - Current",
+            "description": "Participated in UJL Portal Web scraper development. TypeScript, JavaScript, Express NextJS, HTML5, CSS, Sass Tailwind & Python"
+        },
+        "sossego_back": {
+            "title": "Sossego - Back End Developer",
+            "time": "01/2023 - 08/2023",
+            "description": "Encharged to create & maintenance robots for webscraping using Playwright, NodeJS, NestJS, Python, Docker & development in API's."
+        },
+        "bolha_fullstack": {
+            "title": "Bolha - Full Stack Developer",
+            "time": "01/2024 - Current",
+            "description": "Encharged to develop/maintenance websites and APIs for our clients using Next JS/React, PHP, Cosmic, Strapi, TypeScript, NodeJS & AWS."
+        }
+    },
+    "skills": {
+        "nodejs": "4 years",
+        "typescript": "4 years",
+        "docker": "4 years",
+        "mongodb": "4 years",
+        "mysql": "4 years",
+        "react": "3 years",
+        "python": "2 years",
+        "golang": "2 years",
+        "aws": "2 years"
+    },
+    "footer": {
+        "about": "ABOUT",
+        "github": "GITHUB",
+        "linktree": "LINKTREE",
+        "rights": "All Rights Reserved."
+    }
+}

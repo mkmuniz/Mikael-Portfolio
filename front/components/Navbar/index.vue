@@ -9,32 +9,33 @@
                 <ul class="sm:visible hidden sm:flex space-x-3 text-xl m-6">
                     <li>
                         <NuxtLink to="#about" class="group hover:text-standard transition duration-300">
-                            ABOUT ME
+                            {{ $t("navbar_links.about") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="#experience" class="group hover:text-standard transition duration-300">
-                            EXPERIENCE
+                            {{ $t("navbar_links.experience") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">
-                            SKILLS
+                            {{ $t("navbar_links.skills") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="https://linktr.ee/mkmuniz" class="group hover:text-standard transition duration-300" :target="'_blank'">
-                            CONTACT
+                            {{ $t("navbar_links.contact") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
+                    <LangSwitch />
                 </ul>
             </div>
             <div class="flex justify-end items-center">

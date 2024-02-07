@@ -2,9 +2,9 @@
     <html class="scroll-smooth">
     <HeaderHome />
     <About />
-    <ProjectsContent />
     <Experience />
     <Skills />
+    <Projects />
     <Footer />
     </html>
 </template>

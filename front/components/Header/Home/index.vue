@@ -7,10 +7,10 @@
                         <NuxtImg src="/images/logo.png" class="w-2/4 max-w-[500px]" />
                     </div>
                     <h1 class="text-5xl 3xl:text-7xl font-bold text-standard">
-                        Yo, welcome!
+                        {{ $t("header.welcome") }}
                     </h1>
                     <p class="mt-2 ml-2 text-2xl">
-                        Full Stack Developer
+                        {{ $t("header.role") }}
                     </p>
                     <div class="flex space-x-3 ml-1 sm:justify-start justify-center">
                         <NuxtLink to="https://github.com/mkmuniz" target="_blank"

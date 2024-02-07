@@ -12,7 +12,8 @@
         <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">SKILLS</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="https://linktr.ee/mkmuniz" :target="'_blank'" class="group hover:text-standard transition duration-300">CONTACT</NuxtLink>
+        <NuxtLink to="https://linktr.ee/mkmuniz" :target="'_blank'"
+          class="group hover:text-standard transition duration-300">CONTACT</NuxtLink>
       </li>
     </ul>
   </div>
@@ -20,8 +21,9 @@
 
 <script>
 export default {
+  name: "SideNavBar",
   props: {
     status: Boolean
-  }
+  },
 };
 </script>

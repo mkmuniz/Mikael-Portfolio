@@ -8,7 +8,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        4 years
+                        {{ $t("skills.nodejs") }}
                     </span>
                 </div>
                 <div
@@ -16,7 +16,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        4 years
+                        {{ $t("skills.typescript") }}
                     </span>
                 </div>
                 <div
@@ -24,7 +24,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        4 years
+                        {{ $t("skills.docker") }}
                     </span>
                 </div>
                 <div
@@ -32,7 +32,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        4 years
+                        {{ $t("skills.mongodb") }}
                     </span>
                 </div>
                 <div
@@ -40,7 +40,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        4 years
+                        {{ $t("skills.mysql") }}
                     </span>
                 </div>
                 <div
@@ -48,7 +48,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        3 years
+                        {{ $t("skills.react") }}
                     </span>
                 </div>
                 <div
@@ -56,7 +56,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        2 years
+                        {{ $t("skills.python") }}
                     </span>
                 </div>
                 <div
@@ -64,7 +64,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        2 years
+                        {{ $t("skills.golang") }}
                     </span>
                 </div>
                 <div
@@ -72,7 +72,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
-                        2 years
+                        {{ $t("skills.aws") }}
                     </span>
                 </div>
             </div>

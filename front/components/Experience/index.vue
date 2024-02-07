@@ -47,18 +47,11 @@ onMounted(() => {
                         <div class="w-full sm:h-full flex flex-col justify-center">
                             <div class="sm:m-6">
                                 <span class="text-4xl lg:text-6xl">
-                                    MACKLEAPS - Full Stack Intern
+                                    {{ $t("experience.mackleaps_intern.title") }}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">06/2020 - 06/2022</p>
-                                <span class="lg:text-2xl">
-                                    Technical leadership, development
-                                    and support in projects
-                                    Participated in Oriente platform
-                                    development.
-                                    Developed MackLeaps website.
-                                    Javascript, Typescript, React,
-                                    NodeJS, Go, Java, Docker, APIs REST,
-                                    SQL, GitHub, SOLID, GitLab.
+                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.mackleaps_intern.time") }}</p>
+                                <span class="3xl:text-2xl text-xl">
+                                    {{ $t("experience.mackleaps_intern.description") }}
                                 </span>
                             </div>
                         </div>
@@ -79,20 +72,11 @@ onMounted(() => {
                         <div class="w-full h-full flex flex-col justify-center">
                             <div class="sm:m-6">
                                 <span class="text-4xl lg:text-6xl">
-                                    MACKLEAPS - Full Stack Developer
+                                    {{ $t("experience.mackleaps_fullstack.title") }}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">08/2022 - 01/2023</p>
-                                <span class="lg:text-2xl">
-                                    Responsible by guide & teach new
-                                    interns, leadership, tasks
-                                    organizations, project
-                                    management & development in
-                                    Back-End and Front-End.
-                                    Participated in ACSP website
-                                    development
-                                    TypeScript, React, NodeJS, Python,
-                                    NestJS, Docker, Ruby,
-                                    PostgreSQL, MongoDB & MySQL.
+                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.mackleaps_fullstack.time") }}</p>
+                                <span class="3xl:text-2xl text-xl">
+                                    {{ $t("experience.mackleaps_fullstack.description") }}
                                 </span>
                             </div>
                         </div>
@@ -111,15 +95,11 @@ onMounted(() => {
                         <div class="w-full h-full flex flex-col justify-center">
                             <div class="sm:m-6">
                                 <span class="text-4xl lg:text-6xl">
-                                    AgentesDev - Full Stack Developer
+                                    {{ $t("experience.agentesdev_fullstack.title")}}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">06/2022 - Current</p>
-                                <span class="lg:text-2xl">
-                                    Participated in UJL Portal
-                                    Web scraper development.
-                                    TypeScript, JavaScript, Express
-                                    NextJS, HTML5, CSS, Sass Tailwind
-                                    & Python
+                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.agentesdev_fullstack.time")}}</p>
+                                <span class="3xl:text-2xl text-xl">
+                                    {{ $t("experience.agentesdev_fullstack.description")}}
                                 </span>
                             </div>
                         </div>
@@ -140,14 +120,11 @@ onMounted(() => {
                         <div class="w-full h-full flex flex-col justify-center">
                             <div class="sm:m-6">
                                 <span class="text-4xl lg:text-6xl">
-                                    Sossego - Back End Developer
+                                    {{ $t("experience.sossego_back.title")}}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">01/2023 - 08/2023</p>
-                                <span class="lg:text-2xl">
-                                    Encharged to create &
-                                    maintenance robots for webscraping using Playwright, NodeJS,
-                                    NestJS, Python, Docker &
-                                    development in API's.
+                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.sossego_back.time")}}</p>
+                                <span class="3xl:text-2xl text-xl">
+                                    {{ $t("experience.sossego_back.description")}}
                                 </span>
                             </div>
                         </div>
@@ -167,14 +144,11 @@ onMounted(() => {
                         <div class="w-full h-full flex flex-col justify-center">
                             <div class="sm:m-6">
                                 <span class="text-4xl lg:text-6xl">
-                                    Bolha - Full Stack Developer
+                                    {{  $t("experience.bolha_fullstack.title") }}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">01/2024 - Current</p>
-                                <span class="lg:text-2xl">
-                                    Encharged to
-                                    develop/maintenance websites
-                                    and APIs for our clients using Next JS/React,
-                                    PHP, Cosmic, Strapi, TypeScript, NodeJS & AWS.
+                                <p class="text-xl lg:text-3xl mb-12">{{  $t("experience.bolha_fullstack.time") }}</p>
+                                <span class="3xl:text-2xl text-xl">
+                                    {{  $t("experience.bolha_fullstack.description") }}
                                 </span>
                             </div>
                         </div>
