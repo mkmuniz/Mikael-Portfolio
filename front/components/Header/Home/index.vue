@@ -17,9 +17,13 @@
                             class="text-4xl transition-all hover:text-standard">
                             <Icon name="uil:github" />
                         </NuxtLink>
-                        <NuxtLink to="https://www.linkedin.com/in/mikael-muniz-ribeiro-5764961a3/" target="_blank"
+                        <NuxtLink to="https://www.linkedin.com/in/mikael-muniz-ribeiro/" target="_blank"
                             class="text-4xl transition-all hover:text-standard">
                             <Icon name="uil:linkedin" />
+                        </NuxtLink>
+                        <NuxtLink to="https://linktr.ee/mkmuniz" target="_blank"
+                            class="text-4xl transition-all hover:text-standard">
+                            <Icon name="icon-park-outline:link-three" />
                         </NuxtLink>
                     </div>
                 </span>
