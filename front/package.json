@@ -12,6 +12,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.2",
+    "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.8.0",
     "nuxt-icon": "^0.6.6",
     "vue": "^3.3.7",

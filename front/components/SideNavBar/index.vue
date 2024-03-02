@@ -1,8 +1,11 @@
 <template>
   <div
-    :class="['sm:hidden fixed right-0 h-screen z-30', status ? '-translate-x-0-' : 'translate-x-full', 'overflow-y-auto transition duration-150 ease-in-out bg-black w-48']">
-    <ul class="m-6 mt-24 space-y-1">
-      <li>
+  :class="['sm:hidden fixed right-0 h-screen z-30', status ? '-translate-x-0-' : 'translate-x-full', 'overflow-y-auto transition duration-150 ease-in-out bg-black w-48']">
+  <ul class="m-6 mt-24 space-y-1">
+    <li :class="['flex items-center justify-center m-6']">
+      <LangSwitch />
+    </li>
+    <li>
         <NuxtLink to="#about" class="group hover:text-standard transition duration-300">ABOUT ME</NuxtLink>
       </li>
       <li>
@@ -21,9 +24,9 @@
 
 <script>
 export default {
-  name: "SideNavBar",
-  props: {
-    status: Boolean
-  },
+    name: "SideNavBar",
+    props: {
+        status: Boolean
+    },
 };
 </script>

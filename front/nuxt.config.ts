@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-icon',
+    '@nuxt/image',
+    '@nuxtjs/i18n',
+    "@pinia/nuxt"
+  ],
   i18n: {
     lazy: false,
     langDir: "locales",
@@ -10,13 +16,13 @@ export default defineNuxtConfig({
       {
         code: 'pt-BR',
         iso: 'pt-BR',
-        name: 'pt-BR',
+        name: 'Portuguese (BR)',
         file: 'pt-BR.json'
       },
       {
         code: 'en-US',
         iso: 'en-US',
-        name: 'en-PT',
+        name: 'English (US)',
         file: 'en-US.json'
       },
     ],
