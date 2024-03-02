@@ -24,6 +24,7 @@
     "@nuxtjs/tailwindcss": "^6.9.3",
     "@splidejs/vue-splide": "^0.6.12",
     "@tanstack/vue-query": "^5.10.0",
+    "@vercel/speed-insights": "^1.0.10",
     "flowbite": "^2.2.0",
     "vue-query": "^1.26.0"
   }
