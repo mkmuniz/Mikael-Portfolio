@@ -1,8 +1,3 @@
-<script setup>
-import { SpeedInsights } from "@vercel/speed-insights/nuxt"
-</script>
-
-
 <template>
     <div class="bg-black">
         <SpeedInsights />
@@ -11,6 +6,8 @@ import { SpeedInsights } from "@vercel/speed-insights/nuxt"
     </div>
 </template>
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
+
 useSeoMeta({
     title: 'Mikael Muniz Ribeiro - Portfolio',
     ogTitle: 'Mikael Muniz Ribeiro - Portfolio',
