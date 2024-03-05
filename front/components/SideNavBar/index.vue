@@ -6,17 +6,17 @@
       <LangSwitch />
     </li>
     <li>
-        <NuxtLink to="#about" class="group hover:text-standard transition duration-300">ABOUT ME</NuxtLink>
+        <NuxtLink to="#about" class="group hover:text-standard transition duration-300">{{ $t("navbar_links.about") }}</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#experience" class="group hover:text-standard transition duration-300">EXPERIENCE</NuxtLink>
+        <NuxtLink to="#experience" class="group hover:text-standard transition duration-300">{{ $t("navbar_links.experience") }}</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">SKILLS</NuxtLink>
+        <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">{{ $t("navbar_links.skills") }}</NuxtLink>
       </li>
       <li>
         <NuxtLink to="https://linktr.ee/mkmuniz" :target="'_blank'"
-          class="group hover:text-standard transition duration-300">CONTACT</NuxtLink>
+          class="group hover:text-standard transition duration-300">{{ $t("navbar_links.contact") }}</NuxtLink>
       </li>
     </ul>
   </div>
