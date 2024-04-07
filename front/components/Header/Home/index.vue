@@ -6,13 +6,15 @@
                     <div class="w-full flex items-center justify-center sm:hidden visible mb-4">
                         <NuxtImg src="/images/logo.png" class="w-2/4 max-w-[500px]" />
                     </div>
-                    <h1 class="text-5xl 3xl:text-7xl font-bold text-standard">
-                        {{ $t("header.welcome") }}
-                    </h1>
-                    <p class="mt-2 ml-2 text-2xl">
-                        {{ $t("header.role") }}
-                    </p>
-                    <div class="flex space-x-3 ml-1 sm:justify-start justify-center">
+                    <div class="p-3">
+                        <h1 class="text-5xl 3xl:text-7xl font-bold text-standard">
+                            {{ $t("header.welcome") }}
+                        </h1>
+                        <p class="text-2xl mt-2">
+                            {{ $t("header.role") }}
+                        </p>
+                    </div>
+                    <div class="flex space-x-3 p-3 sm:justify-start justify-center">
                         <NuxtLink to="https://github.com/mkmuniz" target="_blank"
                             class="text-4xl transition-all hover:text-standard">
                             <Icon name="uil:github" />
