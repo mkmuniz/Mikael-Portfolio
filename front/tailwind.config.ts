@@ -9,6 +9,11 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       screens: {
+        'mobile': { 'max': '639px' },
+        'mobile-l': { 'min': '425px', 'max': '639px' },
+        'mobile-m': { 'min': '375px', 'max': '424px' },
+        'mobile-s': { 'min': '320px', 'max': '374px' },
+        'tablet': {'min': '639px', 'max': '1023px'},
         '3xl': { 'min': '1440px' }
       },
       plugins: [

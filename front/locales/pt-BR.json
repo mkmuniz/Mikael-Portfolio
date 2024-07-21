@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "SOBRE",
-        "description": "Tenho 23 anos, trabalho como desenvolvedor de software desde 2020 em vários projetos e empresas. Atualmente, sou um desenvolvedor Full Stack focado principalmente em TypeScript, NodeJS, Python, NextJS (ReactJS), Go, MySQL, PostgreSQL, MongoDB e AWS/GCP."
+        "description": "Tenho 23 anos, trabalho como desenvolvedor de software desde 2020 em vários projetos e empresas. Atualmente, sou um desenvolvedor Full Stack focado principalmente em TypeScript, NodeJS, NextJS (ReactJS), Go, Docker MySQL, PostgreSQL, MongoDB e AWS/GCP."
     },
     "experience": {
         "mackleaps_intern": {

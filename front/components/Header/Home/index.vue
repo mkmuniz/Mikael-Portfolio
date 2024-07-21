@@ -1,20 +1,21 @@
 <template>
-    <div class="w-full h-screen text-white font-hubot select-none 3xl:container 3xl:mx-auto">
-        <div class="sm:grid sm:grid-cols-2 flex flex-col items-center h-screen">
-            <div class="sm:h-screen h-full flex justify-center items-center sm:text-left text-center">
+    <div class="w-full lg:h-screen text-white font-hubot select-none 3xl:container 3xl:mx-auto">
+        <div class="lg:grid lg:grid-cols-2 flex flex-col items-center lg:h-screen">
+            <div class="h-screen flex justify-center items-center sm:text-left text-center">
                 <span>
-                    <div class="w-full flex items-center justify-center sm:hidden visible mb-4">
-                        <NuxtImg src="/images/logo.png" class="w-2/4 max-w-[500px]" />
+                    <div class="w-full flex items-center justify-center lg:hidden visible mb-4">
+                        <NuxtImg src="/images/logo.png" class="w-[65%] max-w-[500px]" />
                     </div>
-                    <div class="p-3">
-                        <h1 class="text-5xl 3xl:text-7xl font-bold text-standard">
+                    <div class="p-3 tablet:text-center">
+                        <p class="text-xl text-standard">
                             {{ $t("header.welcome") }}
-                        </h1>
-                        <p class="text-2xl mt-2">
+                        </p>
+                        <h1 class="text-5xl">I'm Mikael Muniz</h1>
+                        <p class="text-4xl mt-2">
                             {{ $t("header.role") }}
                         </p>
                     </div>
-                    <div class="flex space-x-3 p-3 sm:justify-start justify-center">
+                    <div class="flex space-x-3 p-3 lg:justify-start justify-center">
                         <NuxtLink to="https://github.com/mkmuniz" target="_blank"
                             class="text-4xl transition-all hover:text-standard">
                             <Icon name="uil:github" />
@@ -30,7 +31,7 @@
                     </div>
                 </span>
             </div>
-            <div class="w-full sm:flex items-center justify-center sm:visible hidden">
+            <div class="w-full lg:flex items-center justify-center lg:visible hidden">
                 <NuxtImg src="/images/logo.png" class="w-2/4 max-w-[500px]" />
             </div>
         </div>

@@ -14,7 +14,6 @@ import {
     initTooltips
 } from 'flowbite'
 
-// initialize components based on data attribute selectors
 onMounted(() => {
     initAccordions();
     initCarousels();
@@ -44,13 +43,13 @@ onMounted(() => {
                                     class="min-w-[200px] max-w-[800px] w-2/5" />
                             </NuxtLink>
                         </div>
-                        <div class="w-full sm:h-full flex flex-col justify-center">
+                        <div class="w-full sm:h-full flex flex-col justify-center p-3">
                             <div class="sm:m-6">
-                                <span class="text-4xl lg:text-6xl">
+                                <span class="text-3xl lg:text-5xl">
                                     {{ $t("experience.mackleaps_intern.title") }}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.mackleaps_intern.time") }}</p>
-                                <span class="3xl:text-2xl text-xl">
+                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.mackleaps_intern.time") }}</p>
+                                <span class="3xl:text-2xl">
                                     {{ $t("experience.mackleaps_intern.description") }}
                                 </span>
                             </div>
@@ -69,13 +68,13 @@ onMounted(() => {
                                     class="min-w-[200px] max-w-[800px] w-2/5" />
                             </NuxtLink>
                         </div>
-                        <div class="w-full h-full flex flex-col justify-center">
+                        <div class="w-full h-full flex flex-col justify-center p-3">
                             <div class="sm:m-6">
-                                <span class="text-4xl lg:text-6xl">
+                                <span class="text-3xl lg:text-5xl">
                                     {{ $t("experience.mackleaps_fullstack.title") }}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.mackleaps_fullstack.time") }}</p>
-                                <span class="3xl:text-2xl text-xl">
+                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.mackleaps_fullstack.time") }}</p>
+                                <span class="3xl:text-2xl">
                                     {{ $t("experience.mackleaps_fullstack.description") }}
                                 </span>
                             </div>
@@ -92,13 +91,13 @@ onMounted(() => {
                                     class="min-w-[200px] max-w-[800px] w-2/5 rounded-full" />
                             </NuxtLink>
                         </div>
-                        <div class="w-full h-full flex flex-col justify-center">
+                        <div class="w-full h-full flex flex-col justify-center p-3">
                             <div class="sm:m-6">
-                                <span class="text-4xl lg:text-6xl">
+                                <span class="text-3xl lg:text-5xl">
                                     {{ $t("experience.agentesdev_fullstack.title")}}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.agentesdev_fullstack.time")}}</p>
-                                <span class="3xl:text-2xl text-xl">
+                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.agentesdev_fullstack.time")}}</p>
+                                <span class="3xl:text-2xl">
                                     {{ $t("experience.agentesdev_fullstack.description")}}
                                 </span>
                             </div>
@@ -109,7 +108,7 @@ onMounted(() => {
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                        <div class="flex items-center justify-center">
+                        <div class="flex items-center justify-center p-3">
                             <NuxtLink href="https://www.sossego.com.br" target="_blank"
                                 className="flex items-center justify-center">
                                 <NuxtImg
@@ -119,11 +118,11 @@ onMounted(() => {
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
                             <div class="sm:m-6">
-                                <span class="text-4xl lg:text-6xl">
+                                <span class="text-3xl lg:text-5xl">
                                     {{ $t("experience.sossego_back.title")}}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">{{ $t("experience.sossego_back.time")}}</p>
-                                <span class="3xl:text-2xl text-xl">
+                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.sossego_back.time")}}</p>
+                                <span class="3xl:text-2xl">
                                     {{ $t("experience.sossego_back.description")}}
                                 </span>
                             </div>
@@ -134,7 +133,7 @@ onMounted(() => {
             <div class="hidden duration-700 ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
                     <div class="grid sm:grid-cols-2 grid-cols-1 h-screen">
-                        <div class="flex items-center justify-center">
+                        <div class="flex items-center justify-center p-3">
                             <NuxtLink href="https://www.bolha.com.br" target="_blank" className="flex items-center justify-center">
                                 <NuxtImg
                                     src="https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png"
@@ -143,11 +142,11 @@ onMounted(() => {
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
                             <div class="sm:m-6">
-                                <span class="text-4xl lg:text-6xl">
+                                <span class="text-3xl lg:text-2xl">
                                     {{  $t("experience.bolha_fullstack.title") }}
                                 </span>
-                                <p class="text-xl lg:text-3xl mb-12">{{  $t("experience.bolha_fullstack.time") }}</p>
-                                <span class="3xl:text-2xl text-xl">
+                                <p class="text-xl lg:text-2xl mb-12">{{  $t("experience.bolha_fullstack.time") }}</p>
+                                <span class="3xl:text-2xl">
                                     {{  $t("experience.bolha_fullstack.description") }}
                                 </span>
                             </div>
@@ -168,7 +167,6 @@ onMounted(() => {
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
                 data-carousel-slide-to="3"></button>
         </div>
-        <!-- Slider controls -->
         <button type="button"
             class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev>
