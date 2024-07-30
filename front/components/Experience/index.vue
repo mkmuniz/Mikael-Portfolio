@@ -30,7 +30,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div id="experience" class="relative w-full font-hubot text-white sm:text-left text-center 3xl:container 3xl:mx-auto" data-carousel="slide">
+    <div id="experience" class="relative w-full font-hubot text-white sm:text-left text-center 3xl:container 3xl:mx-auto mobile:p-6 p-3" data-carousel="slide" data-carousel-interval="8000">
         <div class="relative h-screen overflow-hidden">
             <div class="hidden duration-700 h-screen ease-in-out select-none" data-carousel-item>
                 <div className="flex items-center justify-center h-screen 3xl:container 3xl:mx-auto">
@@ -44,13 +44,16 @@ onMounted(() => {
                             </NuxtLink>
                         </div>
                         <div class="w-full sm:h-full flex flex-col justify-center p-3">
-                            <div class="sm:m-6">
-                                <span class="text-3xl lg:text-5xl">
+                            <div class="sm:m-6 flex flex-col gap-y-3">
+                                <span class="text-3xl lg:text-2xl">
                                     {{ $t("experience.mackleaps_intern.title") }}
                                 </span>
-                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.mackleaps_intern.time") }}</p>
+                                <p class="text-xl lg:text-2xl mb-12">({{ $t("experience.mackleaps_intern.time") }})</p>
                                 <span class="3xl:text-2xl">
                                     {{ $t("experience.mackleaps_intern.description") }}
+                                </span>
+                                <span class="3xl:text-2xl">
+                                    Stacks: {{ $t("experience.mackleaps_intern.stacks")}}
                                 </span>
                             </div>
                         </div>
@@ -69,13 +72,16 @@ onMounted(() => {
                             </NuxtLink>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center p-3">
-                            <div class="sm:m-6">
-                                <span class="text-3xl lg:text-5xl">
+                            <div class="sm:m-6 flex flex-col gap-y-3">
+                                <span class="text-3xl lg:text-2xl">
                                     {{ $t("experience.mackleaps_fullstack.title") }}
                                 </span>
-                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.mackleaps_fullstack.time") }}</p>
+                                <p class="text-xl lg:text-2xl mb-12">({{ $t("experience.mackleaps_fullstack.time") }})</p>
                                 <span class="3xl:text-2xl">
                                     {{ $t("experience.mackleaps_fullstack.description") }}
+                                </span>
+                                <span class="3xl:text-2xl">
+                                    Stacks: {{ $t("experience.mackleaps_fullstack.stacks")}}
                                 </span>
                             </div>
                         </div>
@@ -92,13 +98,16 @@ onMounted(() => {
                             </NuxtLink>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center p-3">
-                            <div class="sm:m-6">
-                                <span class="text-3xl lg:text-5xl">
+                            <div class="sm:m-6 flex flex-col gap-y-3">
+                                <span class="text-3xl lg:text-2xl">
                                     {{ $t("experience.agentesdev_fullstack.title")}}
                                 </span>
-                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.agentesdev_fullstack.time")}}</p>
+                                <p class="text-xl lg:text-2xl mb-12">({{ $t("experience.agentesdev_fullstack.time")}})</p>
                                 <span class="3xl:text-2xl">
                                     {{ $t("experience.agentesdev_fullstack.description")}}
+                                </span>
+                                <span class="3xl:text-2xl">
+                                    Stacks: {{ $t("experience.agentesdev_fullstack.stacks")}}
                                 </span>
                             </div>
                         </div>
@@ -117,13 +126,16 @@ onMounted(() => {
                             </NuxtLink>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
-                            <div class="sm:m-6">
-                                <span class="text-3xl lg:text-5xl">
+                            <div class="sm:m-6 flex flex-col gap-y-3">
+                                <span class="text-3xl lg:text-2xl">
                                     {{ $t("experience.sossego_back.title")}}
                                 </span>
-                                <p class="text-xl lg:text-2xl mb-12">{{ $t("experience.sossego_back.time")}}</p>
+                                <p class="text-xl lg:text-2xl mb-12">({{ $t("experience.sossego_back.time")}})</p>
                                 <span class="3xl:text-2xl">
                                     {{ $t("experience.sossego_back.description")}}
+                                </span>
+                                <span class="3xl:text-2xl">
+                                    Stacks: {{ $t("experience.sossego_back.stacks")}}
                                 </span>
                             </div>
                         </div>
@@ -141,13 +153,16 @@ onMounted(() => {
                             </NuxtLink>
                         </div>
                         <div class="w-full h-full flex flex-col justify-center">
-                            <div class="sm:m-6">
+                            <div class="sm:m-6 flex flex-col gap-y-3">
                                 <span class="text-3xl lg:text-2xl">
                                     {{  $t("experience.bolha_fullstack.title") }}
                                 </span>
-                                <p class="text-xl lg:text-2xl mb-12">{{  $t("experience.bolha_fullstack.time") }}</p>
+                                <p class="text-xl lg:text-2xl mb-12">({{  $t("experience.bolha_fullstack.time") }})</p>
                                 <span class="3xl:text-2xl">
                                     {{  $t("experience.bolha_fullstack.description") }}
+                                </span>
+                                <span class="3xl:text-2xl">
+                                    Stacks: {{ $t("experience.bolha_fullstack.stacks")}}
                                 </span>
                             </div>
                         </div>

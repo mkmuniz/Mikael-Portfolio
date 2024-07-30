@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
@@ -8,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     "@pinia/nuxt"
   ],
+
   i18n: {
     lazy: false,
     langDir: "locales",
@@ -28,18 +30,23 @@ export default defineNuxtConfig({
     ],
     defaultLocale: "pt-BR"
   },
+
   devServer: {
     port: Number(process.env.PORT)
   },
+
   hooks: {
     'close': () => {
 
     }
   },
+
   app: {
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
     },
-  }
+  },
+
+  compatibilityDate: '2024-07-27'
 })

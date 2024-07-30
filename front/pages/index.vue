@@ -3,8 +3,6 @@
     <HeaderHome />
     <About />
     <Experience />
-    <Skills />
-    <Projects />
     <Footer />
     </html>
 </template>

@@ -7,37 +7,43 @@
     },
     "header": {
         "welcome": "Yo, bem-vindo",
-        "role": "Desenvolvedor Full Stack"
+        "role": "Desenvolvedor de Software"
     },
     "about": {
         "title": "SOBRE",
-        "description": "Tenho 23 anos, trabalho como desenvolvedor de software desde 2020 em vários projetos e empresas. Atualmente, sou um desenvolvedor Full Stack focado principalmente em TypeScript, NodeJS, NextJS (ReactJS), Go, Docker MySQL, PostgreSQL, MongoDB e AWS/GCP."
+        "description": "Desenvolvedor de software com 23 anos de idade e experiência desde 2020 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, NodeJS, NextJS (ReactJS), Go, Docker, bancos de dados como MySQL, PostgreSQL, MongoDB, e serviços na nuvem como AWS e GCP.",
+        "stacks": "TypeScript, NodeJS, NextJS (ReactJS), Go, Docker, MySQL, PostgreSQL, MongoDB e AWS"
     },
     "experience": {
         "mackleaps_intern": {
             "title": "MACKLEAPS - Estagiário Full Stack",
             "time": "05/2020 - 05/2022",
-            "description": "Liderança técnica, desenvolvimento e suporte em projetos. Participei do desenvolvimento da plataforma Oriente. Desenvolvi o site da MackLeaps. Javascript, Typescript, React, NodeJS, Go, Java, Docker, APIs REST, SQL, GitHub, SOLID, GitLab."
+            "description": "Atuação em liderança técnica, desenvolvimento e suporte em projetos, incluindo a plataforma Oriente e o site MackLeaps.",
+            "stacks": "Typescript, React, NodeJS, NextJS, NestJS, Ruby, PostgreSQL, Docker, MongoDB e MySQL"
         },
         "mackleaps_fullstack": {
             "title": "MACKLEAPS - Desenvolvedor Full Stack",
             "time": "08/2022 - 01/2023",
-            "description": "Responsável por orientar e ensinar novos estagiários, liderança, organização de tarefas, gerenciamento de projetos e desenvolvimento no Back-End e Front-End. Participei do desenvolvimento do site ACSP. TypeScript, React, NodeJS, Python, NestJS, Docker, Ruby, PostgreSQL, MongoDB e MySQL."
+            "description": "Orientação de novos estagiários, liderança de tarefas, gerenciamento de projetos e desenvolvimento tanto no Front-End quanto no Back-End, incluindo o site ACSP.",
+            "stacks": "TypeScript, NextJS, React, NodeJS, NestJS, Python, Docker, Ruby, PostgreSQL, MongoDB e MySQL"
         },
         "agentesdev_fullstack": {
             "title": "AgentesDev - Desenvolvedor Full Stack",
-            "time": "06/2022 - Atual",
-            "description": "Participei do desenvolvimento do raspador web do Portal UJL. TypeScript, JavaScript, Express NextJS, HTML5, CSS, Sass Tailwind e Python."
+            "time": "06/2022 - Atualmente",
+            "description": "Desenvolvimento do raspador web do Portal UJL.",
+            "stacks": "TypeScript, NextJS, NestJS, NodeJS, Go, MySQL, Docker e AWS"
         },
         "sossego_back": {
             "title": "Sossego - Desenvolvedor Back End",
             "time": "01/2023 - 08/2023",
-            "description": "Encarregado de criar e manter robôs para web scraping usando Playwright, NodeJS, NestJS, Python, Docker e desenvolvimento em APIs."
+            "description": "Criação e manutenção de robôs para web scraping.",
+            "stacks": "TypeScript, NodeJS, NestJS, Python, Playwright, MySQL e Docker"
         },
         "bolha_fullstack": {
             "title": "Bolha - Desenvolvedor Full Stack",
-            "time": "01/2024 - Atual",
-            "description": "Encarregado de desenvolver/manter sites e APIs para nossos clientes usando Next JS/React, PHP, Cosmic, Strapi, TypeScript, NodeJS e AWS."
+            "time": "01/2024 - Atualmente",
+            "description": "Desenvolvimento e manutenção de sites e APIs para clientes.",
+            "stacks": "TypeScript, NodeJS, NextJS, React, PHP, Cosmic, Strapi, MySQL e AWS"
         }
     },
     "skills": {
