@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "ABOUT",
-        "description": "Software developer, 23 years old, with experience since 2021 in various projects and companies. Currently working as a Full Stack developer focusing on TypeScript, NodeJS, NextJS (ReactJS), Java, Go, Docker, databases like MySQL, PostgreSQL, MongoDB, and cloud services like AWS and GCP.",
+        "description": "Software Engineer, 23 years old, with experience since 2021 in various projects and companies. Currently working as a Full Stack developer focusing on TypeScript, NodeJS, NextJS (ReactJS), Java, Go, Docker, databases like MySQL, PostgreSQL, MongoDB, and cloud services like AWS and GCP.",
         "stacks": "TypeScript, NodeJS, NextJS (ReactJS), Go, Docker, MySQL, PostgreSQL, MongoDB, and AWS"
     },
     "experience": {
