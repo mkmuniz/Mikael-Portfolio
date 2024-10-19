@@ -11,19 +11,19 @@
     },
     "about": {
         "title": "SOBRE",
-        "description": "Desenvolvedor de software com 23 anos de idade e experiência desde 2020 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, NodeJS, NextJS (ReactJS), Go, Docker, bancos de dados como MySQL, PostgreSQL, MongoDB, e serviços na nuvem como AWS e GCP.",
+        "description": "Desenvolvedor de software com 23 anos de idade e trabalho desde 2021 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, NodeJS, NextJS (ReactJS), Go, Java, Docker, bancos de dados como MySQL, PostgreSQL, MongoDB, e serviços na nuvem como AWS e GCP.",
         "stacks": "TypeScript, NodeJS, NextJS (ReactJS), Go, Docker, MySQL, PostgreSQL, MongoDB e AWS"
     },
     "experience": {
         "mackleaps_intern": {
             "title": "MACKLEAPS - Estagiário Full Stack",
-            "time": "05/2020 - 05/2022",
+            "time": "05/2021 - 05/2022",
             "description": "Atuação em liderança técnica, desenvolvimento e suporte em projetos, incluindo a plataforma Oriente e o site MackLeaps.",
             "stacks": "Typescript, React, NodeJS, NextJS, NestJS, Ruby, PostgreSQL, Docker, MongoDB e MySQL"
         },
         "mackleaps_fullstack": {
             "title": "MACKLEAPS - Desenvolvedor Full Stack",
-            "time": "08/2022 - 01/2023",
+            "time": "10/2022 - 01/2023",
             "description": "Orientação de novos estagiários, liderança de tarefas, gerenciamento de projetos e desenvolvimento tanto no Front-End quanto no Back-End, incluindo o site ACSP.",
             "stacks": "TypeScript, NextJS, React, NodeJS, NestJS, Python, Docker, Ruby, PostgreSQL, MongoDB e MySQL"
         },
@@ -47,13 +47,13 @@
         }
     },
     "skills": {
-        "nodejs": "4 anos",
-        "typescript": "4 anos",
-        "docker": "4 anos",
-        "mongodb": "4 anos",
-        "mysql": "4 anos",
+        "nodejs": "3 anos",
+        "typescript": "3 anos",
+        "docker": "3 anos",
+        "mongodb": "3 anos",
+        "mysql": "3 anos",
         "react": "3 anos",
-        "python": "2 anos",
+        "python": "1 ano",
         "golang": "2 anos",
         "aws": "2 anos"
     },
