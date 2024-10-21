@@ -2,7 +2,7 @@
     <footer>
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 font-bold">
             <div class="flex items-center justify-center">
-                <ul class="flex flex-wrap items-center text-xl mb-6 font-medium sm:mb-0 text-white">
+                <ul class="flex flex-wrap items-center text-xl mb-6 font-bold sm:mb-0 text-white">
                     <li>
                         <NuxtLink to="#about" class="group hover:text-standard transition duration-300 me-4 md:me-6">
                             {{ $t("footer.about") }}
