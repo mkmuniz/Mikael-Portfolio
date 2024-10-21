@@ -10,7 +10,7 @@
                         <p class="text-xl text-standard">
                             {{ $t("header.welcome") }}
                         </p>
-                        <h1 class="text-5xl">I'm Mikael Muniz</h1>
+                        <h1 class="text-5xl">Mikael Muniz Ribeiro</h1>
                         <p class="text-4xl mt-2">
                             {{ $t("header.role") }}
                         </p>
