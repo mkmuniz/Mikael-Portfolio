@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "SOBRE",
-        "description": "Engenheiro de software com 23 anos de idade e trabalho desde 2021 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, NodeJS, NextJS (ReactJS), Go, Java, Docker, bancos de dados como MySQL, PostgreSQL, MongoDB, e serviços na nuvem como AWS e GCP.",
+        "description": "Engenheiro de software com 23 anos de idade e trabalho desde 2020 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, NodeJS, NextJS (ReactJS), Go, Java, Docker, bancos de dados como MySQL, PostgreSQL, MongoDB, e serviços na nuvem como AWS e GCP.",
         "stacks": "TypeScript, NodeJS, NextJS (ReactJS), Go, Docker, MySQL, PostgreSQL, MongoDB e AWS"
     },
     "experience": {
