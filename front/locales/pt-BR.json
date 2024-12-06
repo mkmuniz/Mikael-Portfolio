@@ -2,6 +2,7 @@
     "navbar_links": {
         "about": "SOBRE",
         "experience": "EXPERIÊNCIA",
+        "projects": "PROJETOS",
         "contact": "CONTATO"
     },
     "header": {
@@ -11,12 +12,17 @@
     "about": {
         "title": "SOBRE",
         "description": "Desenvolvedor com 23 anos de idade e trabalho desde 2020 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, Go, Java, Docker, AWS e bancos de dados como MySQL, PostgreSQL, MongoDB.",
-        "stacks": "TypeScript, Go, Java, Docker, AWS, MySQL, PostgreSQL, MongoDB"
+        "stacks": "TypeScript, Go, Java, Docker, AWS, MySQL, PostgreSQL, MongoDB",
+        "additional_info": "Descubra mais sobre nossa jornada e compromisso com a excelência",
+        "stat_1": "Anos de Experiência",
+        "stat_2": "Projetos Concluídos",
+        "stat_3": "Empresas",
+        "stat_4": "Tecnologias"
     },
     "experience": {
         "mackleaps_intern": {
             "title": "MACKLEAPS - Estagiário Full Stack",
-            "time": "05/2020 - 05/2022",
+            "time": "06/2020 - 05/2022",
             "description": "Atuação em liderança técnica, desenvolvimento e suporte em projetos, incluindo a plataforma Oriente e o site MackLeaps.",
             "stacks": "Typescript, React, Java, NodeJS, MySQL, PostgreSQL, MongoDB e Docker"
         },
@@ -45,21 +51,41 @@
             "stacks": "TypeScript, NodeJS, NextJS, React, PHP, Cosmic, Strapi, MySQL e AWS"
         }
     },
-    "skills": {
-        "nodejs": "3 anos",
-        "typescript": "3 anos",
-        "docker": "3 anos",
-        "mongodb": "3 anos",
-        "mysql": "3 anos",
-        "react": "3 anos",
-        "python": "1 ano",
-        "golang": "2 anos",
-        "aws": "2 anos"
-    },
     "footer": {
         "about": "SOBRE",
         "github": "GITHUB",
         "linktree": "LINKTREE",
         "rights": "Todos os Direitos Reservados."
+    },
+    "projects": {
+        "title": "Projetos",
+        "subtitle": "Conheça alguns dos projetos que desenvolvi",
+        "viewProject": "Ver Projeto",
+        "items": {
+            "freedom-language-network": {
+                "title": "Freedom Language Network",
+                "excerpt": "Plataforma para membros do Students For Liberty agendarem encontros para praticar inglês gratuitamente com pessoas de diversos países."
+            },
+            "biflux": {
+                "title": "Biflux",
+                "excerpt": "Projeto desenvolvido para gerenciar custos e despesas através do upload de pagamentos de contas de energia em um dashboard."
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "excerpt": "Projeto desenvolvido para mostrar todas as minhas experiências como desenvolvedor na área de tecnologia."
+            },
+            "cidadao-zoiudo": {
+                "title": "Cidadão Zoiudo",
+                "excerpt": "Ferramenta de automação para investigar licitações públicas no portal da transparência, expondo contas bancárias idênticas entre diferentes empresas."
+            },
+            "ujl-portal": {
+                "title": "Portal UJL",
+                "excerpt": "Portal para a União Juventude e Liberdade, o maior movimento estudantil liberal do Brasil."
+            },
+            "oriente": {
+                "title": "Oriente",
+                "excerpt": "Projeto para auxiliar alunos e professores no desenvolvimento e apresentação de projetos de conclusão de curso."
+            }
+        }
     }
 }

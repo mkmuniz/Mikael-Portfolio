@@ -2,6 +2,7 @@
     "navbar_links": {
         "about": "ABOUT",
         "experience": "EXPERIENCE",
+        "projects": "PROJECTS",
         "contact": "CONTACT"
     },
     "header": {
@@ -11,12 +12,17 @@
     "about": {
         "title": "ABOUT",
         "description": "23-year-old developer working since 2020 on various projects and companies. Currently working as a Full Stack developer focusing on TypeScript, Go, Java, Docker, AWS and databases such as MySQL, PostgreSQL, MongoDB.",
-        "stacks": "TypeScript, Go, Java, Docker, AWS, MySQL, PostgreSQL, MongoDB"
+        "stacks": "TypeScript, Go, Java, Docker, AWS, MySQL, PostgreSQL, MongoDB",
+        "additional_info": "Learn more about our journey and commitment to excellence",
+        "stat_1": "Years of Experience",
+        "stat_2": "Completed Projects",
+        "stat_3": "Companies Worked",
+        "stat_4": "Technologies Used"
     },
     "experience": {
         "mackleaps_intern": {
             "title": "MACKLEAPS - Full Stack Intern",
-            "time": "05/2020 - 05/2022",
+            "time": "06/2020 - 05/2022",
             "description": "Technical leadership, development and support in projects, including the Oriente platform and MackLeaps website.",
             "stacks": "Typescript, React, Java, NodeJS, MySQL, PostgreSQL, MongoDB and Docker"
         },
@@ -45,21 +51,41 @@
             "stacks": "TypeScript, NodeJS, NextJS, React, PHP, Cosmic, Strapi, MySQL and AWS"
         }
     },
-    "skills": {
-        "nodejs": "3 years",
-        "typescript": "3 years",
-        "docker": "3 years",
-        "mongodb": "3 years",
-        "mysql": "3 years",
-        "react": "3 years",
-        "python": "1 year",
-        "golang": "2 years",
-        "aws": "2 years"
-    },
     "footer": {
         "about": "ABOUT",
         "github": "GITHUB",
         "linktree": "LINKTREE",
         "rights": "All Rights Reserved."
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "Check out some of my main projects",
+        "viewProject": "View Project",
+        "items": {
+            "freedom-language-network": {
+                "title": "Freedom Language Network",
+                "excerpt": "Platform for Students For Liberty members to schedule meetings with people from various countries and practice English for free"
+            },
+            "biflux": {
+                "title": "Biflux",
+                "excerpt": "Project developed to manage costs and expenses by uploading energy bill payments to a dashboard"
+            },
+            "portfolio": {
+                "title": "Portfolio",
+                "excerpt": "Project developed to showcase all of my experiences as a developer in the technology field"
+            },
+            "cidadao-zoiudo": {
+                "title": "Cidadao Zoiudo",
+                "excerpt": "Automation tool to investigate public tenders on the government transparency portal, exposing identical bank accounts among different companies"
+            },
+            "ujl-portal": {
+                "title": "UJL Portal",
+                "excerpt": "Portal for União Juventude e Liberdade, the largest liberal student movement in Brazil"
+            },
+            "oriente": {
+                "title": "Oriente",
+                "excerpt": "Project to help students and teachers in development and presentation of final course projects"
+            }
+        }
     }
 }
