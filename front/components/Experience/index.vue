@@ -50,7 +50,7 @@ const experiences = [
         time: "experience.agentesdev_fullstack.time",
         description: "experience.agentesdev_fullstack.description",
         stacks: "experience.agentesdev_fullstack.stacks",
-        image: "https://media-cdn.com.br/agentes-dev.png",
+        image: "/images/agentes-dev.png",
         link: "https://agentesdev.com.br",
         imageClass: "rounded-full"
     },
