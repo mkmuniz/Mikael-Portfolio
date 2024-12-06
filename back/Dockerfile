@@ -13,6 +13,12 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
 ENV PORT=8080
+ENV SPRING_PROFILES_ACTIVE=prod
+ENV TZ=UTC
+
 EXPOSE ${PORT}
 
-CMD ["java", "-jar", "-Dserver.port=${PORT}", "app.jar"] 
+ENTRYPOINT ["java", \
+            "-Djava.security.egd=file:/dev/./urandom", \
+            "-jar", \
+            "/app/app.jar"] 
