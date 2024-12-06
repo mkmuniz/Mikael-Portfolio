@@ -21,6 +21,16 @@ public class ProjectController {
         return ResponseEntity.ok(projectService.getAllProjects());
     }
 
+    @GetMapping("/test")
+    public String test() {
+        try {
+            long count = projectRepository.count();
+            return "Conectado ao MongoDB. Total de projetos: " + count;
+        } catch (Exception e) {
+            return "Erro: " + e.getMessage();
+        }
+    }
+
     @GetMapping("/{slug}")
     public ResponseEntity<Project> getProjectBySlug(@PathVariable String slug) {
         Project project = projectService.getProjectBySlug(slug);
@@ -45,4 +55,4 @@ public class ProjectController {
         projectService.deleteProject(id);
         return ResponseEntity.ok().build();
     }
-} 
+}

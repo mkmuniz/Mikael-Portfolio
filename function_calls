@@ -1,2 +1,0 @@
-@RestController
-@RequestMapping("api/projects") 
