@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/images")
+@RequestMapping("images")
 @CrossOrigin(origins = "*")
 public class ImageController {
 
