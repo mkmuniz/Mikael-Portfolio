@@ -24,7 +24,7 @@ public class ProjectController {
     @GetMapping("/test")
     public String test() {
         try {
-            long count = projectRepository.count();
+            long count = projectService.count();
             return "Conectado ao MongoDB. Total de projetos: " + count;
         } catch (Exception e) {
             return "Erro: " + e.getMessage();
