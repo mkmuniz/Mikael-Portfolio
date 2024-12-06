@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/projects")
+@RequestMapping("/projects")
 @CrossOrigin(origins = "*")
 public class ProjectController {
 
@@ -19,16 +19,6 @@ public class ProjectController {
     @GetMapping
     public ResponseEntity<List<Project>> getAllProjects() {
         return ResponseEntity.ok(projectService.getAllProjects());
-    }
-
-    @GetMapping("/test")
-    public String test() {
-        try {
-            long count = projectService.count();
-            return "Conectado ao MongoDB. Total de projetos: " + count;
-        } catch (Exception e) {
-            return "Erro: " + e.getMessage();
-        }
     }
 
     @GetMapping("/{slug}")
@@ -55,4 +45,4 @@ public class ProjectController {
         projectService.deleteProject(id);
         return ResponseEntity.ok().build();
     }
-}
+} 
