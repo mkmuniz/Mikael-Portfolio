@@ -15,10 +15,10 @@ logs
 
 # Misc
 .DS_Store
-.fleet
-.idea
-
-# Local env files
 .env
 .env.*
 !.env.example
+
+# Local env files
+.env.local
+.env.*.local

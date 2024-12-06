@@ -48,5 +48,13 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-07-27'
+  compatibilityDate: '2024-07-27',
+
+  runtimeConfig: {
+    public: {
+      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL,
+      adminUsername: process.env.NUXT_ADMIN_USERNAME,
+      adminPassword: process.env.NUXT_ADMIN_PASSWORD
+    }
+  }
 })

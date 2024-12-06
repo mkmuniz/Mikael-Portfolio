@@ -1,6 +1,14 @@
 <template>
   <div class="projects-container">
-    <h1 class="page-title">Projetos</h1>
+    <div class="flex justify-between items-center mb-8">
+      <h1 class="page-title">Projetos</h1>
+      <NuxtLink 
+        to="/project/new"
+        class="px-6 py-2 bg-red-600 rounded hover:bg-red-700 transition-colors"
+      >
+        Novo Projeto
+      </NuxtLink>
+    </div>
     <div class="projects-grid">
       <NuxtLink 
         v-for="project in projects" 
@@ -8,7 +16,11 @@
         :to="`/project/${project.slug}`"
         class="project-card"
       >
-        <img :src="project.thumbnail" :alt="project.title" class="project-thumbnail">
+        <img 
+          :src="`${config.public.apiBaseUrl}/images/${project.images[0]}`" 
+          :alt="project.title" 
+          class="project-thumbnail"
+        >
         <div class="project-info">
           <h2 class="project-title">{{ project.title }}</h2>
           <p class="project-excerpt">{{ project.excerpt }}</p>
@@ -22,16 +34,13 @@
 </template>
 
 <script setup>
-const projects = ref([
-  {
-    slug: 'sistema-gestao',
-    title: 'Sistema de Gestão Empresarial',
-    excerpt: 'Sistema completo para otimização de processos empresariais',
-    thumbnail: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format',
-    tags: ['Vue.js', 'Node.js']
-  },
-  // Adicione mais projetos aqui
-])
+const { fetchProjects } = useProjects()
+const projects = ref([])
+const config = useRuntimeConfig()
+
+onMounted(async () => {
+  projects.value = await fetchProjects()
+})
 </script>
 
 <style scoped>

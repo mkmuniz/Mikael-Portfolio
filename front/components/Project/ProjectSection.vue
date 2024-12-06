@@ -8,40 +8,48 @@
         {{ $t('projects.subtitle') }}
       </p>
       
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div v-if="loading" class="text-center text-white">
+        Carregando projetos...
+      </div>
+
+      <div v-else-if="error" class="text-center text-red-500">
+        {{ error }}
+      </div>
+
+      <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <NuxtLink 
           v-for="project in projects" 
           :key="project.slug"
-          :to="`/`"
+          :to="`/project/${project.slug}`"
           class="group bg-zinc-900 rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
         >
           <div class="relative overflow-hidden">
             <img 
-              :src="project.thumbnail" 
+              :src="`${config.public.apiBaseUrl}/images/${project.images[0]}`"
               :alt="project.title" 
               class="w-full h-48 object-cover"
             >
-            <!-- <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <span class="px-6 py-3 bg-red-600 text-white rounded-full font-medium transform translate-y-4 transition-transform duration-300 group-hover:translate-y-0">
                 {{ $t('projects.viewProject') }}
               </span>
-            </div> -->
+            </div>
           </div>
           
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2 text-white">
-              {{ $t(`projects.items.${project.slug}.title`) }}
+              {{ project.title }}
             </h3>
             <p class="text-gray-300 mb-4 text-sm">
-              {{ $t(`projects.items.${project.slug}.excerpt`) }}
+              {{ project.excerpt }}
             </p>
             <div class="flex flex-wrap gap-2">
               <span 
-                v-for="tag in project.tags" 
-                :key="tag" 
+                v-for="technology in project.technologies" 
+                :key="technology" 
                 class="px-3 py-1 bg-red-600 text-sm rounded-full text-white"
               >
-                {{ tag }}
+                {{ technology }}
               </span>
             </div>
           </div>
@@ -52,42 +60,29 @@
 </template>
 
 <script setup>
-const projects = ref([
-  {
-    slug: 'freedom-language-network',
-    thumbnail: '/images/projects/fln.png',
-    tags: ['Next.js', 'TypeScript', 'Google Cloud Platform', 'Tailwind CSS'],
-    link: 'https://fln-ashy.vercel.app/'
-  },
-  {
-    slug: 'biflux',
-    thumbnail: '/images/projects/biflux.png',
-    tags: ['Next.js', 'Node.js', 'Prisma', 'AWS', 'PostgreSQL', 'Docker'],
-    link: 'https://biflux.vercel.app/'
-  },
-  {
-    slug: 'portfolio',
-    thumbnail: '/images/projects/mkmuniz.png',
-    tags: ['Nuxt.js', 'TypeScript','Java', 'Tailwind CSS'],
-    link: 'https://www.mkmuniz.dev/'
-  },
-  {
-    slug: 'cidadao-zoiudo',
-    thumbnail: '/images/projects/cidadao-zoiudo.png',
-    tags: ['Next.js', 'Node.js', 'Playwright', 'Docker', 'Tailwind CSS', 'AWS', 'PostgreSQL'],
-    link: 'https://cidadao-zoiudo.vercel.app'
-  },
-  {
-    slug: 'ujl-portal',
-    thumbnail: '/images/projects/ujl.png',
-    tags: ['Next.js', 'Tailwind CSS', 'Node.js', 'Django', 'PostgreSQL'],
-    link: 'https://www.ujliberdade.org.br'
-  },
-  {
-    slug: 'oriente',
-    thumbnail: '/images/projects/mack.png',
-    tags: ['React', 'Node.js', 'Docker', 'MongoDB'],
-    link: 'https://mackleaps.mackenzie.br/oriente/'
+import { ref, onMounted } from 'vue'
+import { useRuntimeConfig } from '#app'
+
+const config = useRuntimeConfig()
+const projects = ref([])
+const loading = ref(true)
+const error = ref(null)
+
+onMounted(async () => {
+  try {
+    loading.value = true
+    const response = await $fetch(`${config.public.apiBaseUrl}/projects`, {
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    projects.value = response
+    console.log('Projetos carregados:', projects.value)
+  } catch (e) {
+    error.value = 'Erro ao carregar os projetos. Por favor, tente novamente mais tarde.'
+    console.error('Erro detalhado:', e)
+  } finally {
+    loading.value = false
   }
-])
+})
 </script> 

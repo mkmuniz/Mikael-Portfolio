@@ -12,7 +12,7 @@
         <NuxtLink to="#experience" class="group hover:text-standard transition duration-300">{{ $t("navbar_links.experience") }}</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">{{ $t("navbar_links.skills") }}</NuxtLink>
+        <NuxtLink to="#skills" class="group hover:text-standard transition duration-300">{{ $t("navbar_links.projects") }}</NuxtLink>
       </li>
       <li>
         <NuxtLink to="https://linktr.ee/mkmuniz" :target="'_blank'"

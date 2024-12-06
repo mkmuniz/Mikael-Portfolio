@@ -7,26 +7,39 @@
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
+# 📜 Sobre o Projeto
 
-# 📜 About
+Portfolio web fullstack desenvolvido para mostrar projetos, experiências e carreira. O projeto utiliza Vue.js com Nuxt 3 no frontend e Spring Boot no backend.
 
-A web portfolio created to show my projects, experience and career.
+# 🛠️ Tecnologias Utilizadas
 
-# ⚙️ Config
+### Frontend
+- Vue.js 3
+- Nuxt 3
+- TypeScript
+- Tailwind CSS
+- i18n para internacionalização
 
-`Node >= 18.x.x`
+### Backend
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- Maven
 
-`npm >= 6.x.x`
+# ⚙️ Pré-requisitos
 
-# 🖥️ How to run
+- Node.js >= 18.x.x
+- npm >= 6.x.x
+- Java JDK 17
+- Maven
+- PostgreSQL
 
-- Clone repository
-- Access `front` folder
-- Open terminal
-- Run `npm i`
-- Run `npm run dev`
-- Access `http://localhost:3000` and you will go into home page as show below
+# 🚀 Como Executar
 
-![Screenshot_17](https://github.com/mkmuniz/Mikael-Portfolio/blob/main/front/public/images/home-banner-readme.png)
+### Frontend
+1. Clone o repositório
 

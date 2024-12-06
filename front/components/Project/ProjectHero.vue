@@ -11,8 +11,12 @@
     <div class="project-hero__info">
       <h1 class="project-title">{{ title }}</h1>
       <div class="project-tags">
-        <span v-for="tag in tags" :key="tag" class="tag">
-          {{ tag }}
+        <span 
+          v-for="technology in technologies" 
+          :key="technology" 
+          class="tag"
+        >
+          {{ technology }}
         </span>
       </div>
     </div>
@@ -29,7 +33,7 @@ defineProps({
     type: String,
     required: true
   },
-  tags: {
+  technologies: {
     type: Array,
     default: () => []
   }
@@ -45,8 +49,12 @@ defineProps({
   @apply w-full h-[60vh] relative rounded-lg overflow-hidden mb-8;
 }
 
+.project-hero__info {
+  @apply flex flex-col gap-4;
+}
+
 .project-title {
-  @apply text-4xl md:text-6xl font-bold mb-4;
+  @apply text-4xl md:text-6xl font-bold;
 }
 
 .project-tags {
@@ -54,6 +62,6 @@ defineProps({
 }
 
 .tag {
-  @apply px-4 py-2 bg-red-600 rounded-full text-sm font-medium;
+  @apply px-4 py-2 bg-red-600 rounded-full text-sm font-medium text-white;
 }
 </style> 
