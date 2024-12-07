@@ -11,7 +11,7 @@
         class="project-card"
       >
         <img 
-          :src="`${config.public.apiBaseUrl}/images/${project.images[0]}`" 
+          :src="`${project.images[0]}`" 
           :alt="project.title" 
           class="project-thumbnail"
         >

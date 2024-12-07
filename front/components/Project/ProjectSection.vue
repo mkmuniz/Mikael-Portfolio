@@ -25,7 +25,7 @@
         >
           <div class="relative overflow-hidden">
             <img 
-              :src="`${config.public.apiBaseUrl}/images/${project.images[0]}`"
+              :src="`${project.images[0]}`"
               :alt="project.title" 
               class="w-full h-48 object-cover"
             >

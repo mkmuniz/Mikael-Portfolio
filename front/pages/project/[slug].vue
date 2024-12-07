@@ -14,7 +14,7 @@
   <div v-else-if="project" class="project-container">
     <main class="project-content">
       <ProjectHero 
-        :image="`${config.public.apiBaseUrl}/images/${project.images[0]}`"
+        :image="`${project.images[0]}`"
         :title="project.title"
         :technologies="project.technologies"
       />
@@ -47,7 +47,7 @@ const config = useRuntimeConfig()
 onMounted(async () => {
   try {
     loading.value = true
-    const response = await $fetch(`http://localhost:8080/api/projects/${route.params.slug}`, {
+    const response = await $fetch(`${config.public.apiBaseUrl}/projects/${route.params.slug}`, {
       headers: {
         'Accept': 'application/json'
       }

@@ -1,4 +1,4 @@
-package com.io.github.com.mkmuniz.portfolio.projects;
+package com.io.github.com.mkmuniz.portfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

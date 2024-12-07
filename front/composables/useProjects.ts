@@ -1,4 +1,4 @@
-import { useRuntimeConfig } from '#app'
+import { useRuntimeConfig } from 'nuxt/app'
 
 interface Project {
   id?: string;
@@ -42,8 +42,7 @@ export function useProjects() {
   async function createProject(project: Project, images: File[]) {
     try {
       console.log('Criando projeto:', project)
-      
-      // 1. Criar o projeto primeiro
+
       const projectResponse = await fetch(`${baseUrl}/projects`, {
         method: 'POST',
         headers: {
@@ -65,7 +64,6 @@ export function useProjects() {
       const createdProject = await projectResponse.json()
       console.log('Projeto criado com sucesso:', createdProject)
 
-      // 2. Se houver imagens, fazer o upload
       if (images?.length > 0 && createdProject.id) {
         console.log('Iniciando upload de imagens para o projeto:', createdProject.id)
         const formData = new FormData()
@@ -74,7 +72,7 @@ export function useProjects() {
           formData.append('files', image)
         })
 
-        const imageResponse = await fetch(`${baseUrl}/images/upload/${createdProject.id}`, {
+        const imageResponse = await fetch(`${baseUrl}/api/images/upload/${createdProject.id}`, {
           method: 'POST',
           body: formData
         })
@@ -84,7 +82,25 @@ export function useProjects() {
           throw new Error(`Erro ao fazer upload das imagens: ${imageResponse.status}`)
         }
 
-        const updatedProject = await imageResponse.json()
+        const imageUrls = await imageResponse.json()
+
+        const updateResponse = await fetch(`${baseUrl}/projects/${createdProject.id}`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            ...createdProject,
+            images: imageUrls,
+            thumbnail: imageUrls[0]
+          })
+        })
+
+        if (!updateResponse.ok) {
+          throw new Error(`Erro ao atualizar projeto com as imagens: ${updateResponse.status}`)
+        }
+
+        const updatedProject = await updateResponse.json()
         console.log('Projeto atualizado com imagens:', updatedProject)
         return updatedProject
       }
