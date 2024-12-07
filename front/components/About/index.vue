@@ -24,8 +24,8 @@
                                 <div class="h-12 w-12 flex items-center justify-center text-standard mb-2">
                                     <Icon :name="stat.icon" size="2rem" />
                                 </div>
-                                <p class="text-sm font-bold text-gray-800">{{ stat.value }}</p>
-                                <p class="text-sm text-gray-600">{{ $t(`about.stat_${i + 1}`) }}</p>
+                                <p class="text-sm font-bold text-gray-800 text-center">{{ stat.value }}</p>
+                                <p class="text-sm text-gray-600 text-center">{{ $t(`about.stat_${i + 1}`) }}</p>
                             </div>
                         </div>
                     </div>
