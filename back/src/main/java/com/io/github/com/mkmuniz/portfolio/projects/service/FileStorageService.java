@@ -47,9 +47,11 @@ public class FileStorageService {
 
     public List<String> storeFiles(MultipartFile[] files) {
         List<String> fileNames = new ArrayList<>();
+
         for (MultipartFile file : files) {
             fileNames.add(storeFile(file));
         }
+        
         return fileNames;
     }
 } 

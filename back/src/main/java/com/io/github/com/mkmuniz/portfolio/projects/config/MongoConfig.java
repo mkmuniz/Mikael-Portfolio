@@ -5,6 +5,4 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @Configuration
 @EnableMongoRepositories(basePackages = "com.io.github.com.mkmuniz.portfolio.projects.repository")
-public class MongoConfig {
-    // A configuração será feita automaticamente pelo Spring usando a URI do application.properties
-} 
+public class MongoConfig {} 

@@ -11,10 +11,10 @@ import javax.servlet.MultipartConfigElement;
 @Configuration
 public class MultipartConfig {
 
-    @Value("${MAX_FILE_SIZE:10485760}") // 10MB em bytes
+    @Value("${MAX_FILE_SIZE:10485760}")
     private long maxFileSize;
 
-    @Value("${MAX_REQUEST_SIZE:10485760}") // 10MB em bytes
+    @Value("${MAX_REQUEST_SIZE:10485760}")
     private long maxRequestSize;
 
     @Bean

@@ -27,6 +27,7 @@ public class ProjectService {
 
     public Project updateProject(String id, Project project) {
         project.setId(id);
+        
         return projectRepository.save(project);
     }
 

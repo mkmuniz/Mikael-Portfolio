@@ -10,7 +10,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/projects")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://www.mkmuniz.dev"
+})
 public class ProjectController {
 
     @Autowired
