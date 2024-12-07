@@ -1,7 +1,7 @@
 <template>
-  <div class="projects-container">
+  <div class="projects-container flex flex-col items-center">
     <div class="flex justify-between items-center mb-8">
-      <h1 class="page-title text-center">Projetos</h1>
+      <h1 class="page-title">Projetos</h1>
     </div>
     <div class="projects-grid">
       <NuxtLink 
@@ -19,7 +19,7 @@
           <h2 class="project-title">{{ project.title }}</h2>
           <p class="project-excerpt">{{ project.excerpt }}</p>
           <div class="project-tags">
-            <span v-for="tag in project.tags" :key="tag" class="tag">{{ tag }}</span>
+            <span v-for="technology in project.technologies" :key="technology" class="tag">{{ technology }}</span>
           </div>
         </div>
       </NuxtLink>
