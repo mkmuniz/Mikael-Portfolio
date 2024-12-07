@@ -8,14 +8,14 @@
             <div :class="['w-full sm:flex items-center justify-end overflow-hidden']">
                 <ul class="sm:visible hidden sm:flex space-x-3 text-xl m-6">
                     <li>
-                        <NuxtLink to="#about" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#about" class="group hover:text-standard transition duration-300">
                             {{ $t("navbar_links.about") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="#experience" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#experience" class="group hover:text-standard transition duration-300">
                             {{ $t("navbar_links.experience") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
