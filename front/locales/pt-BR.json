@@ -35,13 +35,13 @@
         "agentesdev_fullstack": {
             "title": "AgentesDev - Desenvolvedor Full Stack",
             "time": "06/2022 - Atualmente",
-            "description": "Desenvolvimento do raspador web do Portal UJL.",
+            "description": "Desenvolvimento e liderança de projetos voluntários de diversos ramos.",
             "stacks": "TypeScript, NodeJS, Go, Java, Python, NextJS, Docker e AWS."
         },
         "sossego_back": {
             "title": "Sossego - Desenvolvedor Back End",
             "time": "01/2023 - 08/2023",
-            "description": "Desenvolvimento de APIs para web scraping utilizando Playwright, NodeJS, NestJS, Python, e Docker.",
+            "description": "Development and maintenance of APIs for major brokerage firms.",
             "stacks": "Playwright, TypeScript, NodeJS, NestJS, Python e Docker."
         },
         "bolha_fullstack": {
