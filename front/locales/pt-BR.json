@@ -23,32 +23,32 @@
         "mackleaps_intern": {
             "title": "MACKLEAPS - Estagiário Full Stack",
             "time": "06/2020 - 05/2022",
-            "description": "Atuação em liderança técnica, desenvolvimento e suporte em projetos, incluindo a plataforma Oriente e o site MackLeaps.",
-            "stacks": "Typescript, React, Java, NodeJS, MySQL, PostgreSQL, MongoDB e Docker"
+            "description": "Atuação em liderança técnica, desenvolvimento e suporte em projetos.",
+            "stacks": "TypeScript, Java, Go, Python, React, NodeJS, MongoDB, MySQL, Postgres, Cloud e DevOps"
         },
         "mackleaps_fullstack": {
             "title": "MACKLEAPS - Desenvolvedor Full Stack",
             "time": "10/2022 - 01/2023",
             "description": "Orientação de novos estagiários, liderança de tarefas, gerenciamento de projetos e desenvolvimento tanto no Front-End quanto no Back-End, incluindo o site ACSP.",
-            "stacks": "TypeScript, React, NodeJS, Python, MySQL, PostgreSQL, MongoDB e Docker"
+            "stacks": "TypeScript, Java, Go, Python, React, NodeJS, MongoDB, MySQL, Postgres, Cloud e DevOps"
         },
         "agentesdev_fullstack": {
             "title": "AgentesDev - Desenvolvedor Full Stack",
             "time": "06/2022 - Atualmente",
             "description": "Desenvolvimento e liderança de projetos voluntários de diversos ramos.",
-            "stacks": "TypeScript, NodeJS, Go, Java, Python, NextJS, Docker e AWS."
+            "stacks": "TypeScript, NodeJS, Go, Java, Python, React, Postgres, MySQL, MongoDB, AWS/GCP e DevOps"
         },
         "sossego_back": {
             "title": "Sossego - Desenvolvedor Back End",
             "time": "01/2023 - 08/2023",
             "description": "Development and maintenance of APIs for major brokerage firms.",
-            "stacks": "Playwright, TypeScript, NodeJS, NestJS, Python e Docker."
+            "stacks": "Playwright, TypeScript, NodeJS, Python, MySQL, Postgres, Redis e DevOps"
         },
         "bolha_fullstack": {
             "title": "Bolha - Desenvolvedor Full Stack",
             "time": "01/2024 - Atualmente",
-            "description": "Desenvolvimento e manutenção de sites e APIs para clientes.",
-            "stacks": "TypeScript, NodeJS, NextJS, React, PHP, Cosmic, Strapi, MySQL e AWS"
+            "description": "Desenvolvimento e manutenção de sites e APIs para grandes empresas de diversos ramos",
+            "stacks": "TypeScript, PHP, Java, NodeJS, React/React Native, VueJS, Cosmic, Strapi, MySQL, PostgreSQL, AWS e DevOps"
         }
     },
     "footer": {

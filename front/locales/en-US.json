@@ -23,32 +23,32 @@
         "mackleaps_intern": {
             "title": "MACKLEAPS - Full Stack Intern",
             "time": "06/2020 - 05/2022",
-            "description": "Technical leadership, development and support in projects, including the Oriente platform and MackLeaps website.",
-            "stacks": "Typescript, React, Java, NodeJS, MySQL, PostgreSQL, MongoDB and Docker"
+            "description": "Engagement in technical leadership, development, and support in projects.",
+            "stacks": "TypeScript, Java, Go, Python, React, NodeJS, MongoDB, MySQL, Postgres, Cloud, and DevOps"
         },
         "mackleaps_fullstack": {
             "title": "MACKLEAPS - Full Stack Developer",
             "time": "10/2022 - 01/2023",
-            "description": "Guiding new interns, task leadership, project management and development in both Front-End and Back-End, including the ACSP website.",
-            "stacks": "TypeScript, React, NodeJS, Python, MySQL, PostgreSQL, MongoDB and Docker"
+            "description": "Guidance for new interns, task leadership, project management, and development in both Front-End and Back-End.",
+            "stacks": "TypeScript, Java, Go, Python, React, NodeJS, MongoDB, MySQL, Postgres, Cloud, and DevOps"
         },
         "agentesdev_fullstack": {
             "title": "AgentesDev - Full Stack Developer",
             "time": "06/2022 - Present",
-            "description": "Development and leadership of volunteer projects across various fields.",
-            "stacks": "TypeScript, NodeJS, Go, Java, Python, NextJS, Docker and AWS"
+            "description": "Development and leadership of volunteer projects in various sectors.",
+            "stacks": "TypeScript, NodeJS, Go, Java, Python, React, Postgres, MySQL, MongoDB, AWS/GCP, and DevOps"
         },
         "sossego_back": {
-            "title": "Sossego - Back End Developer",
+            "title": "Sossego - Back-End Developer",
             "time": "01/2023 - 08/2023",
-            "description": "Development of web scraping APIs using Playwright, NodeJS, NestJS, Python, and Docker.",
-            "stacks": "Playwright, TypeScript, NodeJS, NestJS, Python and Docker"
+            "description": "Development and maintenance of APIs for major brokerage firms.",
+            "stacks": "Playwright, TypeScript, NodeJS, Python, MySQL, Postgres, Redis, and DevOps"
         },
         "bolha_fullstack": {
             "title": "Bolha - Full Stack Developer",
             "time": "01/2024 - Present",
-            "description": "Development and maintenance of websites and APIs for clients.",
-            "stacks": "TypeScript, NodeJS, NextJS, React, PHP, Cosmic, Strapi, MySQL and AWS"
+            "description": "Development and maintenance of websites and APIs for large companies in various industries.",
+            "stacks": "TypeScript, PHP, Java, NodeJS, React/React Native, VueJS, Cosmic, Strapi, MySQL, PostgreSQL, AWS, and DevOps"
         }
     },
     "footer": {
