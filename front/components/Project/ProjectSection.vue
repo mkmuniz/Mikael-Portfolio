@@ -1,13 +1,12 @@
 <template>
   <section id="projects" class="w-full min-h-screen bg-black py-20 px-4">
     <div class="max-w-7xl mx-auto">
-      <h2 class="text-4xl font-bold text-white inline-block relative">
-        {{ $t('projects.title') }}
-        <span class="absolute left-0 bottom-[-8px] w-full h-1 bg-red-600"></span>
-      </h2>
-      <p class="text-xl text-center mb-12 text-gray-300">
-        {{ $t('projects.subtitle') }}
-      </p>
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-white inline-block relative">
+          {{ $t('projects.title') }}
+          <span class="absolute left-0 bottom-[-8px] w-full h-1 bg-red-600"></span>
+        </h2>
+      </div>
 
       <div v-if="loading" class="text-center text-white">
         Carregando projetos...
