@@ -87,5 +87,13 @@
                 "excerpt": "Projeto para auxiliar alunos e professores no desenvolvimento e apresentação de projetos de conclusão de curso."
             }
         }
+    },
+    "reviews": {
+        "title": "Recomendações",
+        "positions": {
+            "ia_engineer": "IA Engineer e Desenvolvedora na AgentesDev",
+            "owner": "Desenvolvedora e dona da AgentesDev",
+            "software_dev": "Software Developer na AgentesDev"
+        }
     }
 }

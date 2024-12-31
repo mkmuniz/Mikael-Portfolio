@@ -87,5 +87,13 @@
                 "excerpt": "Project to help students and teachers in development and presentation of final course projects"
             }
         }
+    },
+    "reviews": {
+        "title": "Recommendations",
+        "positions": {
+            "ia_engineer": "AI Engineer and Developer at AgentesDev",
+            "owner": "Developer and Owner at AgentesDev",
+            "software_dev": "Software Developer at AgentesDev"
+        }
     }
 }
