@@ -22,14 +22,14 @@
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="#projects" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#projects" class="group hover:text-standard transition duration-300">
                             {{ $t("navbar_links.projects") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="#recommendations" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#reviews" class="group hover:text-standard transition duration-300">
                             {{ $t("navbar_links.recommendations") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
