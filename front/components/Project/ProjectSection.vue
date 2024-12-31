@@ -1,13 +1,14 @@
 <template>
   <section id="projects" class="w-full min-h-screen bg-black py-20 px-4">
     <div class="max-w-7xl mx-auto">
-      <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-red-600">
+      <h2 class="text-4xl font-bold text-white inline-block relative">
         {{ $t('projects.title') }}
+        <span class="absolute left-0 bottom-[-8px] w-full h-1 bg-red-600"></span>
       </h2>
       <p class="text-xl text-center mb-12 text-gray-300">
         {{ $t('projects.subtitle') }}
       </p>
-      
+
       <div v-if="loading" class="text-center text-white">
         Carregando projetos...
       </div>
@@ -17,25 +18,19 @@
       </div>
 
       <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <NuxtLink 
-          v-for="project in projects" 
-          :key="project.slug"
-          :to="`/project/${project.slug}`"
-          class="group bg-zinc-900 rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105"
-        >
+        <NuxtLink v-for="project in projects" :key="project.slug" :to="`/project/${project.slug}`"
+          class="group bg-zinc-900 rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
           <div class="relative overflow-hidden">
-            <img 
-              :src="`${project.images[0]}`"
-              :alt="project.title" 
-              class="w-full h-48 object-cover"
-            >
-            <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <span class="px-6 py-3 bg-red-600 text-white rounded-full font-medium transform translate-y-4 transition-transform duration-300 group-hover:translate-y-0">
+            <img :src="`${project.images[0]}`" :alt="project.title" class="w-full h-48 object-cover">
+            <div
+              class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <span
+                class="px-6 py-3 bg-red-600 text-white rounded-full font-medium transform translate-y-4 transition-transform duration-300 group-hover:translate-y-0">
                 {{ $t('projects.viewProject') }}
               </span>
             </div>
           </div>
-          
+
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2 text-white">
               {{ project.title }}
@@ -44,11 +39,8 @@
               {{ project.excerpt }}
             </p>
             <div class="flex flex-wrap gap-2">
-              <span 
-                v-for="technology in project.technologies" 
-                :key="technology" 
-                class="px-3 py-1 bg-red-600 text-sm rounded-full text-white"
-              >
+              <span v-for="technology in project.technologies" :key="technology"
+                class="px-3 py-1 bg-red-600 text-sm rounded-full text-white">
                 {{ technology }}
               </span>
             </div>
@@ -85,4 +77,4 @@ onMounted(async () => {
     loading.value = false
   }
 })
-</script> 
+</script>
