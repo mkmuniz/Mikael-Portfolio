@@ -75,7 +75,7 @@ const experiences = [
 </script>
 
 <template>
-    <div id="experience" class="relative w-full font-hubot text-white sm:text-left text-center 3xl:container 3xl:mx-auto mobile:p-6 p-3 bg-gradient-to-b from-transparent to-gray-900/30" data-carousel="slide" data-carousel-interval="8000">
+    <div id="experience" class="relative w-full font-hubot text-white sm:text-left text-center 3xl:container 3xl:mx-auto mobile:p-6 p-3 bg-black" data-carousel="slide" data-carousel-interval="8000">
         <div class="relative h-screen overflow-hidden rounded-2xl backdrop-blur-sm bg-black/20">
             <div v-for="(experience, index) in experiences" :key="index" class="hidden duration-1000 h-screen ease-in-out select-none transform transition-all" data-carousel-item>
                 <ExperienceCard 
