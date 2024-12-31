@@ -29,6 +29,13 @@
                         </NuxtLink>
                     </li>
                     <li>
+                        <NuxtLink to="#recommendations" class="group hover:text-standard transition duration-300">
+                            {{ $t("navbar_links.recommendations") }}
+                            <span
+                                class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
+                        </NuxtLink>
+                    </li>
+                    <li>
                         <NuxtLink to="https://linktr.ee/mkmuniz" class="group hover:text-standard transition duration-300" :target="'_blank'">
                             {{ $t("navbar_links.contact") }}
                             <span
