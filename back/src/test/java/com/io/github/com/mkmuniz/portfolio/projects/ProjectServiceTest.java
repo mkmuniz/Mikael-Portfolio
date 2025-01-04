@@ -38,13 +38,14 @@ class ProjectServiceTest {
 
     @BeforeAll
        static void loadEnv() {
-        Dotenv dotenv = Dotenv.configure().load();
+        if (Files.exists(Paths.get(".env"))) {
+            Dotenv dotenv = Dotenv.configure().load();
 
-        System.setProperty("CLOUDINARY_CLOUD_NAME", dotenv.get("CLOUDINARY_CLOUD_NAME_TEST"));
-        System.setProperty("CLOUDINARY_API_KEY", dotenv.get("CLOUDINARY_API_KEY_TEST"));
-        System.setProperty("CLOUDINARY_API_SECRET", dotenv.get("CLOUDINARY_API_SECRET_TEST"));
-        System.setProperty("MONGODB_URI", dotenv.get("MONGODB_URI_TEST"));
-        System.setProperty("PORT", dotenv.get("PORT"));
+            System.setProperty("CLOUDINARY_CLOUD_NAME", dotenv.get("CLOUDINARY_CLOUD_NAME"));
+            System.setProperty("CLOUDINARY_API_KEY", dotenv.get("CLOUDINARY_API_KEY"));
+            System.setProperty("CLOUDINARY_API_SECRET", dotenv.get("CLOUDINARY_API_SECRET"));
+            System.setProperty("MONGODB_URI", dotenv.get("MONGODB_URI"));
+        }
     }
 
     @BeforeEach
