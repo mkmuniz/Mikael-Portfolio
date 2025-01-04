@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Back End Tests
 
 on:
   push:
@@ -37,6 +37,6 @@ jobs:
           echo "CLOUDINARY_API_SECRET=${{ secrets.CLOUDINARY_API_SECRET }}" >> $GITHUB_ENV
           echo "MONGODB_URI=${{ secrets.MONGODB_URI }}" >> $GITHUB_ENV
 
-      - name: Build and Test
+      - name: Running tests
         working-directory: ./back
-        run: mvn clean install
+        run: mvn test
