@@ -30,6 +30,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
+      - name: Set environment variables
+        run: |
+          echo "CLOUDINARY_CLOUD_NAME=${{ secrets.CLOUDINARY_CLOUD_NAME }}" >> $GITHUB_ENV
+          echo "CLOUDINARY_API_KEY=${{ secrets.CLOUDINARY_API_KEY }}" >> $GITHUB_ENV
+          echo "CLOUDINARY_API_SECRET=${{ secrets.CLOUDINARY_API_SECRET }}" >> $GITHUB_ENV
+          echo "MONGODB_URI=${{ secrets.MONGODB_URI }}" >> $GITHUB_ENV
+
       - name: Build and Test
         working-directory: ./back
         run: mvn clean install
