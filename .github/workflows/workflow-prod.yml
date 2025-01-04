@@ -1,4 +1,4 @@
-name: Continuos Integration
+name: Continuous Integration
 
 on:
   push:
@@ -9,14 +9,14 @@ on:
       - main
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup for JDK
+      - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
@@ -30,8 +30,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Run Maven tests
-        run: | 
-          mvn clean install
-          mvn test
-          mvn spring-boot:run
+      - name: Build and Test
+        working-directory: ./back
+        run: mvn clean install
