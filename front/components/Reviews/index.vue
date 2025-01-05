@@ -1,6 +1,6 @@
 <template>
   <section id="reviews" class="w-full min-h-screen bg-black py-20 px-4">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 max-w-6xl">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-white inline-block relative">
           {{ $t('reviews.title') }}
