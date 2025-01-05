@@ -15,11 +15,15 @@ COPY --from=build /app/target/*.jar app.jar
 ENV PORT=8080
 ENV SPRING_PROFILES_ACTIVE=prod
 ENV TZ=UTC
+ENV DOTENV_PATH=/app/.env
+
+RUN touch /app/.env
 
 EXPOSE ${PORT}
 
 ENTRYPOINT ["java", \
             "-Djava.security.egd=file:/dev/./urandom", \
             "-Dspring.profiles.active=prod", \
+            "-Ddotenv.path=/app/.env", \
             "-jar", \
             "/app/app.jar"]
