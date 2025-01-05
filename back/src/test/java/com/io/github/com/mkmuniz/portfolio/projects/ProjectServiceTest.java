@@ -86,4 +86,52 @@ class ProjectServiceTest {
 
         assertEquals(mockProject, result);
     }
+
+    @Test
+    void testCreateProduct() {
+        when(projectRepository.save(mockProject)).thenReturn(mockProject);
+
+        Project result = projectService.createProject(mockProject);
+
+        assertEquals(result, mockProject);
+    } 
+
+    @Test
+    void testUpdateProject() {
+        Project updatedProject = new Project(
+            "1",
+            "biblioteca-virtual",
+            "Biblioteca Virtual De Livros Acadêmicos",
+            "Sistema de gerenciamento de biblioteca com controle de empréstimos e acervo digital",
+            "Projeto completo de biblioteca virtual que permite cadastro de livros, controle de empréstimos, gestão de usuários e acervo digital. Inclui funcionalidades como busca avançada, renovação online e relatórios gerenciais.", 
+            "https://github.com/mkmuniz/biblioteca-virtual",
+            "https://biblioteca-virtual-demo.herokuapp.com",
+            new String[]{"Java", "Spring Boot", "MongoDB", "React", "Docker"},
+            Arrays.asList("https://res.cloudinary.com/demo/image/biblioteca/dashboard.jpg", "https://res.cloudinary.com/demo/image/biblioteca/catalogo.jpg")
+        );
+
+        when(projectRepository.save(updatedProject)).thenReturn(updatedProject);
+
+        Project result = projectService.updateProject("1", updatedProject);
+
+        assertEquals(updatedProject, result);
+    }
+
+    @Test
+    void testDeleteProject() {
+        doNothing().when(projectRepository).deleteById("1");
+
+        projectService.deleteProject("1");
+
+        verify(projectRepository, times(1)).deleteById("1");
+    }
+
+    @Test
+    void testUpdateProjectImages() {
+        when(projectRepository.findById("1")).thenReturn(Optional.of(mockProject));
+
+        projectService.updateProjectImages("1", Arrays.asList("https://res.cloudinary.com/demo/image/biblioteca/dashboard.jpg", "https://res.cloudinary.com/demo/image/biblioteca/catalogo.jpg"));
+
+        verify(projectRepository, times(1)).save(mockProject);
+    }
 }
