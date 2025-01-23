@@ -8,11 +8,11 @@
     },
     "header": {
         "welcome": "Yo, bem-vindo",
-        "role": "Desenvolvedor de Software"
+        "role": "Engenheiro de Software"
     },
     "about": {
         "title": "SOBRE",
-        "description": "Desenvolvedor com 23 anos de idade e trabalho desde 2020 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, Go, Java, Docker, AWS e bancos de dados como MySQL, PostgreSQL, MongoDB.",
+        "description": "Desenvolvedor com 24 anos de idade e trabalho desde 2020 em diversos projetos e empresas. Atualmente, trabalha como desenvolvedor Full Stack com foco em TypeScript, Go, Java, Docker, AWS e bancos de dados como MySQL, PostgreSQL, MongoDB.",
         "stacks": "TypeScript, Go, Java, Docker, AWS, MySQL, PostgreSQL, MongoDB",
         "additional_info": "Descubra mais sobre nossa jornada e compromisso com a excelência",
         "stat_1": "Anos de Experiência",
