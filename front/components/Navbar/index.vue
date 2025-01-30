@@ -8,35 +8,35 @@
             <div :class="['w-full sm:flex items-center justify-end overflow-hidden']">
                 <ul class="sm:visible hidden sm:flex space-x-3 text-xl m-6">
                     <li>
-                        <NuxtLink to="/#about" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#about" class="group hover:text-standard transition duration-300 text-[16px]">
                             {{ $t("navbar_links.about") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/#experience" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#experience" class="group hover:text-standard transition duration-300 text-[16px]">
                             {{ $t("navbar_links.experience") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/#projects" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#projects" class="group hover:text-standard transition duration-300 text-[16px]">
                             {{ $t("navbar_links.projects") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/#reviews" class="group hover:text-standard transition duration-300">
+                        <NuxtLink to="/#reviews" class="group hover:text-standard transition duration-300 text-[16px]">
                             {{ $t("navbar_links.recommendations") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
                         </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://linktr.ee/mkmuniz" class="group hover:text-standard transition duration-300" :target="'_blank'">
+                        <NuxtLink to="https://linktr.ee/mkmuniz" class="group hover:text-standard transition duration-300 text-[16px]" :target="'_blank'">
                             {{ $t("navbar_links.contact") }}
                             <span
                                 class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-standard"></span>
