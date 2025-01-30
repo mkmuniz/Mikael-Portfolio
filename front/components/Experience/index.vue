@@ -70,6 +70,14 @@ const experiences = [
         stacks: "experience.bolha_fullstack.stacks",
         image: "https://99prod.s3.amazonaws.com/uploads/image/file/522697/bolha-logo1024x1024-azul.png",
         link: "https://www.bolha.com.br"
+    },
+    {
+        title: "experience.ricam_engineer.title",
+        time: "experience.ricam_engineer.time",
+        description: "experience.ricam_engineer.description",
+        stacks: "experience.ricam_engineer.stacks",
+        image: "https://media.licdn.com/dms/image/v2/C4E0BAQHsyagUt6OoNQ/company-logo_200_200/company-logo_200_200/0/1631321610275?e=1746057600&v=beta&t=pwiT1ZFf6ebmHOXZ107m5a_jWhn9weJONJ3fvjo-NNs",
+        link: "https://ricamconsultoria.com.br/"
     }
 ]
 </script>

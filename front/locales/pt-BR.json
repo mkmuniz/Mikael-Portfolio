@@ -42,14 +42,20 @@
         "sossego_back": {
             "title": "Sossego - Desenvolvedor Back End",
             "time": "01/2023 - 08/2023",
-            "description": "Development and maintenance of APIs for major brokerage firms.",
+            "description": "Desenvolvimento e manutenção de APIs para grandes corretoras como a Porto Seguro, Bradesco Seguros, Tokyo, Zurich e etc.",
             "stacks": "Playwright, TypeScript, NodeJS, Python, MySQL, Postgres, Redis e DevOps"
         },
         "bolha_fullstack": {
             "title": "Bolha - Desenvolvedor Full Stack",
             "time": "01/2024 - Atualmente",
-            "description": "Desenvolvimento e manutenção de sites e APIs para grandes empresas de diversos ramos",
+            "description": "Desenvolvimento e manutenção de sites e APIs para grandes empresas do Grupo Fleury.",
             "stacks": "TypeScript, PHP, Java, NodeJS, React/React Native, VueJS, Cosmic, Strapi, MySQL, PostgreSQL, AWS e DevOps"
+        },
+        "ricam_engineer": {
+            "title": "Ricam Consultoria - Engenheiro de Software",
+            "time": "01/2025 - Atualmente",
+            "description": "Trabalhando na automação de sistemas para coleta de dados, arquitetura e migrações em nuvem.",
+            "stacks": "Python, Selenium, AWS e GCP"
         }
     },
     "footer": {
