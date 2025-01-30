@@ -8,11 +8,11 @@
     },
     "header": {
         "welcome": "Yo, welcome",
-        "role": "Software Developer"
+        "role": "Software Engineer"
     },
     "about": {
         "title": "ABOUT",
-        "description": "24-year-old developer working since 2020 on various projects and companies. Currently working as a Full Stack developer focusing on TypeScript, Go, Java, Docker, AWS and databases such as MySQL, PostgreSQL, MongoDB.",
+        "description": "24-year-old developer working since 2020 on various projects and companies. Currently working as a Full Stack software engineer focusing on TypeScript, Go, Java, Docker, AWS and databases such as MySQL, PostgreSQL, MongoDB.",
         "stacks": "TypeScript, Go, Java, Docker, AWS, MySQL, PostgreSQL, MongoDB",
         "additional_info": "Learn more about our journey and commitment to excellence",
         "stat_1": "Years of Experience",
