@@ -9,14 +9,14 @@
 import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 useSeoMeta({
-    title: 'Mikael Muniz Ribeiro - Portfolio',
-    ogTitle: 'Mikael Muniz Ribeiro - Portfolio',
-    description: 'This is my amazing site, let me tell you all about it.',
-    ogDescription: 'This is my amazing site, let me tell you all about it.',
+    title: 'Mikael Muniz Ribeiro - Desenvolvedor Full Stack',
+    ogTitle: 'Mikael Muniz Ribeiro - Desenvolvedor Full Stack',
+    description: 'Sou Mikael Muniz Ribeiro, Desenvolvedor Full Stack Pleno com formação pela Universidade Mackenzie. Atuo com back-end e front-end, liderando projetos de tecnologia para grandes marcas do setor médico.',
+    ogDescription: 'Desenvolvedor Full Stack com experiência em projetos estratégicos para grandes marcas. Conheça meu portfólio e trajetória profissional.',
     viewport: 'width=device-width, initial-scale=1',
 })
+
 </script>
 <style>
 @import url('../global/style.css');
-/* Outros estilos */
 </style>

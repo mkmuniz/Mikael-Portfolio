@@ -4,10 +4,10 @@
             <div class="h-screen flex justify-center items-center sm:text-left text-center">
                 <span>
                     <div class="w-full flex items-center justify-center lg:hidden visible mb-4">
-                        <NuxtImg src="/images/logo.png" class="w-[65%] max-w-[500px]" />
+                        <NuxtImg src="/images/header-background-mikael.png" class="w-[50%] max-w-[500px]" />
                     </div>
                     <div class="p-3 tablet:text-center">
-                        <p class="text-xl text-standard">
+                        <p class="text-3xl text-standard">
                             {{ $t("header.welcome") }}
                         </p>
                         <h1 class="text-5xl">Mikael Muniz Ribeiro</h1>
@@ -32,7 +32,7 @@
                 </span>
             </div>
             <div class="w-full lg:flex items-center justify-center lg:visible hidden">
-                <NuxtImg src="/images/logo.png" class="w-2/4 max-w-[500px]" />
+                <NuxtImg src="/images/header-background-mikael.png" class="w-2/4 max-w-[500px]" />
             </div>
         </div>
     </div>

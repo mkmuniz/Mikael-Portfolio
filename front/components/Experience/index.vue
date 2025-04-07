@@ -30,20 +30,12 @@ onMounted(() => {
 
 const experiences = [
     {
-        title: "experience.mackleaps_intern.title",
-        time: "experience.mackleaps_intern.time",
-        description: "experience.mackleaps_intern.description",
-        stacks: "experience.mackleaps_intern.stacks",
+        title: "experience.mackenzie_fullstack.title",
+        time: "experience.mackenzie_fullstack.time",
+        description: "experience.mackenzie_fullstack.description",
+        stacks: "experience.mackenzie_fullstack.stacks",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png",
-        link: "https://mackleaps.mackenzie.br"
-    },
-    {
-        title: "experience.mackleaps_fullstack.title",
-        time: "experience.mackleaps_fullstack.time",
-        description: "experience.mackleaps_fullstack.description",
-        stacks: "experience.mackleaps_fullstack.stacks",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mackenzie_M.svg/1200px-Mackenzie_M.svg.png",
-        link: "https://mackleaps.mackenzie.br"
+        link: "https://www.mackenzie.br/"
     },
     {
         title: "experience.agentesdev_fullstack.title",

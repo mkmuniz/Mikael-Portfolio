@@ -21,16 +21,10 @@
         "stat_4": "Technologies Used"
     },
     "experience": {
-        "mackleaps_intern": {
-            "title": "MACKLEAPS - Full Stack Intern",
-            "time": "06/2020 - 05/2022",
-            "description": "Engagement in technical leadership, development, and support in projects.",
-            "stacks": "TypeScript, Java, Go, Python, React, NodeJS, MongoDB, MySQL, Postgres, Cloud, and DevOps"
-        },
-        "mackleaps_fullstack": {
-            "title": "MACKLEAPS - Full Stack Developer",
+        "mackenzie_fullstack": {
+            "title": "Mackenzie - Full Stack Developer",
             "time": "10/2022 - 01/2023",
-            "description": "Guidance for new interns, task leadership, project management, and development in both Front-End and Back-End.",
+            "description": "Engagement in technical leadership, development, and support in projects. Guidance for new interns, task leadership, project management, and development in both Front-End and Back-End.",
             "stacks": "TypeScript, Java, Go, Python, React, NodeJS, MongoDB, MySQL, Postgres, Cloud, and DevOps"
         },
         "agentesdev_fullstack": {
