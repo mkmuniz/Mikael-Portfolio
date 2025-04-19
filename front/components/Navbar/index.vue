@@ -3,7 +3,7 @@
         <div :class="['h-screen w-screen', status ? 'visible' : 'hidden', 'bg-black absolute opacity-50 sm:hidden']" />
         <div class="flex w-screen 3xl:container 3xl:mx-auto">
             <NuxtLink to="/" class="flex items-center justify-center z-30">
-                <NuxtImg src="/images/logo.png" class="w-24 ml-6 mt-2" />
+                <NuxtImg src="/images/logo.png" class="w-24 ml-6 mt-2" alt="Mkmuniz Logo" />
             </NuxtLink>
             <div :class="['w-full sm:flex items-center justify-end overflow-hidden']">
                 <ul class="sm:visible hidden sm:flex space-x-3 text-xl m-6">

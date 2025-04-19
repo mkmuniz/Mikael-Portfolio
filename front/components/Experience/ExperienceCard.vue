@@ -6,7 +6,8 @@
                     className="flex items-center justify-center hover:opacity-80 transition-opacity">
                     <NuxtImg
                         :src="image"
-                        :class="`min-w-[200px] max-w-[800px] w-2/5 drop-shadow-2xl ${imageClass}`" />
+                        :class="`min-w-[200px] max-w-[800px] w-2/5 drop-shadow-2xl ${imageClass}`"
+                        alt="Company Logo" />
                 </NuxtLink>
             </div>
             <div class="w-full sm:h-full flex flex-col justify-center p-6 backdrop-blur-sm bg-black/10 rounded-xl">

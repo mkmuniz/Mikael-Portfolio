@@ -20,7 +20,7 @@
               class="w-full flex items-center justify-center lg:hidden visible mb-4"
               :style="parallaxTransform(1.2)"
             >
-              <NuxtImg src="/images/header-background-mikael.png" class="w-[50%] max-w-[500px]" />
+              <NuxtImg src="/images/header-background-mikael.png" class="w-[50%] max-w-[500px]" alt="Mkmuniz Background Header" />
             </div>
             <div class="p-3 tablet:text-center" :style="parallaxTransform(1)">
               <p class="text-3xl text-standard">{{ $t("header.welcome") }}</p>
@@ -44,7 +44,7 @@
           </span>
         </div>
         <div class="w-full lg:flex items-center justify-center lg:visible hidden" :style="parallaxTransform(1.2)">
-          <NuxtImg src="/images/header-background-mikael.png" class="w-2/4 max-w-[500px]" />
+          <NuxtImg src="/images/header-background-mikael.png" class="w-2/4 max-w-[500px]" alt="Mkmuniz Person Logo" />
         </div>
       </div>
     </div>
