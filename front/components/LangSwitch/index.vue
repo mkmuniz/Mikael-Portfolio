@@ -23,7 +23,7 @@ const selectLanguage = async () => {
     <div class="bg-black font-bold rounded text-white">
         <div @click="selectLanguage()" :class="['cursor-pointer']">
             <img :src="(selectedLanguage === 'pt-BR' ? brazilFlagIcon : USFlagIcon )"
-                class="w-8 rounded-full" />
+                class="w-8 rounded-full" alt="Country Language Flag" />
         </div>
     </div>
 </template>
