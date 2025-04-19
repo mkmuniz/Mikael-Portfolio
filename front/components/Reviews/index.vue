@@ -15,8 +15,8 @@
             "
           </div>
           <div class="flex items-center mb-6">
-            <img :src="review.image" :alt="review.name" 
-                 class="w-16 h-16 rounded-full object-cover mr-4 border-2 border-red-600">
+            <NuxtImg :src="review.image" :alt="review.name" 
+                 class="w-16 h-16 rounded-full object-cover mr-4 border-2 border-red-600" />
             <div>
               <h3 class="font-semibold text-lg text-white">{{ review.name }}</h3>
               <p class="text-gray-400 text-sm">{{ review.position }}</p>

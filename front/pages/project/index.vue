@@ -10,11 +10,11 @@
         :to="`/project/${project.slug}`"
         class="project-card"
       >
-        <img 
+        <NuxtImg 
           :src="`${project.images[0]}`" 
           :alt="project.title" 
           class="project-thumbnail"
-        >
+        />
         <div class="project-info">
           <h2 class="project-title">{{ project.title }}</h2>
           <p class="project-excerpt">{{ project.excerpt }}</p>

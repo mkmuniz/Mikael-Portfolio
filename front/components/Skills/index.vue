@@ -5,7 +5,7 @@
             <div class="grid sm:grid-cols-3 grid-cols-2 content-center place-items-center w-full">
                 <div
                     class="w-2/4 h-2/4 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.nodejs") }}
@@ -13,7 +13,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.typescript") }}
@@ -21,7 +21,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.docker") }}
@@ -29,7 +29,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.mongodb") }}
@@ -37,7 +37,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
                         class="w-16 h-16 rounded-lg 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.mysql") }}
@@ -45,7 +45,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.react") }}
@@ -53,7 +53,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.python") }}
@@ -61,7 +61,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.golang") }}
@@ -69,7 +69,7 @@
                 </div>
                 <div
                     class="w-32 h-32 3xl:w-64 3xl:h-64 border border-s-4 shadow flex flex-col items-center justify-center rounded mt-6 hover:scale-90 transition-all duration-300">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                    <NuxtImg src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
                         class="w-16 h-16 3xl:h-32 3xl:w-32" />
                     <span class="text-xl 3xl:text-2xl">
                         {{ $t("skills.aws") }}

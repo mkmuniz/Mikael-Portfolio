@@ -2,13 +2,13 @@
   <section class="project-gallery">
     <h2 class="section-title">{{ title }}</h2>
     <div class="gallery-grid">
-      <img 
+      <NuxtImg 
         v-for="(image, index) in images" 
         :key="index"
         :src="image.url" 
         :alt="image.alt" 
         class="gallery-image"
-      >
+      />
     </div>
   </section>
 </template>

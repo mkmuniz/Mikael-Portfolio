@@ -85,11 +85,11 @@
                                 :key="index" 
                                 class="relative"
                             >
-                                <img 
+                                <NuxtImg 
                                     :src="preview.url" 
                                     class="w-full h-32 object-cover rounded"
                                     :class="{ 'border-2 border-red-600': preview.isThumbnail }"
-                                >
+                                />
                                 <span 
                                     v-if="preview.isThumbnail" 
                                     class="absolute top-2 left-2 bg-red-600 text-white text-xs px-2 py-1 rounded"

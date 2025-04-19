@@ -3,11 +3,11 @@
     <h2 class="section-title">{{ title }}</h2>
     <div class="features-grid">
       <div v-for="feature in features" :key="feature.title" class="feature-card">
-        <img 
+        <NuxtImg 
           :src="feature.image" 
           :alt="feature.title"
           class="feature-image"
-        >
+        />
         <h3 class="feature-title">{{ feature.title }}</h3>
         <p>{{ feature.description }}</p>
       </div>

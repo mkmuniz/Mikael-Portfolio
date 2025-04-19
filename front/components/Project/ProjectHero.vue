@@ -1,11 +1,11 @@
 <template>
   <section class="project-hero">
     <div class="project-hero__image">
-      <img 
+      <NuxtImg 
         :src="image"
         :alt="title" 
         class="w-full h-full object-cover"
-      >
+      />
     </div>
     
     <div class="project-hero__info">
