@@ -4,7 +4,6 @@
     <div class="features-grid">
       <div v-for="feature in features" :key="feature.title" class="feature-card">
         <NuxtImg
-          provider="cloudinary"
           :src="feature.image" 
           :alt="feature.title"
           class="feature-image"

@@ -4,7 +4,6 @@
     <div class="gallery-grid">
       <NuxtImg 
         v-for="(image, index) in images" 
-        provider="cloudinary"
         :key="index"
         :src="image.url" 
         :alt="image.alt" 

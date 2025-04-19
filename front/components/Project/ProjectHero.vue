@@ -2,7 +2,6 @@
   <section class="project-hero">
     <div class="project-hero__image">
       <NuxtImg 
-        provider="cloudinary"
         :src="image"
         :alt="title" 
         class="w-full h-full object-cover"

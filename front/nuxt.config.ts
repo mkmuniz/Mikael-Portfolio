@@ -58,10 +58,6 @@ export default defineNuxtConfig({
   },
 
   image: {
-    providers: {
-      cloudinary: {
-        baseURL: 'https://res.cloudinary.com/daynwbfne/image/upload/'
-      }
-    }
+    domains: ['res.cloudinary.com']
   }
 })

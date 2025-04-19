@@ -21,7 +21,6 @@
           class="group bg-zinc-900 rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
           <div class="relative overflow-hidden">
             <NuxtImg 
-              provider="cloudinary" 
               :src="`${project.images[0]}`" 
               :alt="project.title" 
               class="w-full h-48 object-cover" 
