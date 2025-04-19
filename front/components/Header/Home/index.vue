@@ -31,13 +31,25 @@
               class="flex space-x-3 p-3 lg:justify-start justify-center"
               :style="parallaxTransform(0.8)"
             >
-              <NuxtLink to="https://github.com/mkmuniz" target="_blank" class="text-4xl transition-all hover:text-standard">
+              <NuxtLink 
+                to="https://github.com/mkmuniz" 
+                target="_blank" 
+                class="text-4xl transition-all hover:text-standard" 
+                aria-label="GitHub de Mikael Muniz">
                 <Icon name="uil:github" />
               </NuxtLink>
-              <NuxtLink to="https://www.linkedin.com/in/mikael-muniz-ribeiro/" target="_blank" class="text-4xl transition-all hover:text-standard">
+              <NuxtLink 
+                to="https://www.linkedin.com/in/mikael-muniz-ribeiro/" 
+                target="_blank" 
+                class="text-4xl transition-all hover:text-standard" 
+                aria-label="LinkedIn de Mikael Muniz">
                 <Icon name="uil:linkedin" />
               </NuxtLink>
-              <NuxtLink to="https://linktr.ee/mkmuniz" target="_blank" class="text-4xl transition-all hover:text-standard">
+              <NuxtLink 
+                to="https://linktr.ee/mkmuniz" 
+                target="_blank" 
+                class="text-4xl transition-all hover:text-standard" 
+                aria-label="Linktree de Mikael Muniz">
                 <Icon name="icon-park-outline:link-three" />
               </NuxtLink>
             </div>
