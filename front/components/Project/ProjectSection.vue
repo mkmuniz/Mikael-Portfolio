@@ -20,7 +20,12 @@
         <NuxtLink v-for="project in projects" :key="project.slug" :to="`/project/${project.slug}`"
           class="group bg-zinc-900 rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
           <div class="relative overflow-hidden">
-            <NuxtImg :src="`${project.images[0]}`" :alt="project.title" class="w-full h-48 object-cover" />
+            <NuxtImg 
+              provider="cloudinary" 
+              :src="`${project.images[0]}`" 
+              :alt="project.title" 
+              class="w-full h-48 object-cover" 
+            />
             <div
               class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <span

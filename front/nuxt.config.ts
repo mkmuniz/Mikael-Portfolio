@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxtjs/i18n',
-    "@pinia/nuxt"
+    '@pinia/nuxt'
   ],
 
   i18n: {
@@ -54,6 +54,14 @@ export default defineNuxtConfig({
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL,
       adminUsername: process.env.NUXT_ADMIN_USERNAME,
       adminPassword: process.env.NUXT_ADMIN_PASSWORD
+    }
+  },
+
+  image: {
+    providers: {
+      cloudinary: {
+        baseURL: 'https://res.cloudinary.com/daynwbfne/image/upload/'
+      }
     }
   }
 })
