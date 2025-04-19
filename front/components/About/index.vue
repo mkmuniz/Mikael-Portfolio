@@ -37,7 +37,7 @@
 
 <script setup>
 const stats = [
-    { value: '3', icon: 'mdi:calendar-clock' },
+    { value: '5', icon: 'mdi:calendar-clock' },
     { value: '6+', icon: 'mdi:check-circle-outline' },
     { value: '4+', icon: 'mdi:office-building' },
     { value: '17', icon: 'mdi:tools' }
