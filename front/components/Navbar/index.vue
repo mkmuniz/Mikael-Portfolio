@@ -1,5 +1,5 @@
 <template>
-    <nav class="text-white w-full font-hubot flex justify-center sticky top-0 bg-black z-40">
+    <nav class="text-white w-full font-sans flex justify-center sticky top-0 bg-black z-40">
         <div :class="['h-screen w-screen', status ? 'visible' : 'hidden', 'bg-black absolute opacity-50 sm:hidden']" />
         <div class="flex w-screen 3xl:container 3xl:mx-auto">
             <NuxtLink to="/" class="flex items-center justify-center z-30">

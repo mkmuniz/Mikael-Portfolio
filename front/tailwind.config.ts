@@ -23,7 +23,7 @@ export default <Partial<Config>>{
         standard: "#FC1616"
       },
       fontFamily: {
-        hubot: ['HUBOT', 'cursive'],
+        sans: ['Inclusive Sans', 'sans-serif']
       },
       container: {
         padding: {

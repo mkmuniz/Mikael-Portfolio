@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <hr class="my-6 sm:mx-auto lg:my-8" />
-            <span class="block text-sm text-center text-white">© 2024 <NuxtLink
+            <span class="block text-sm text-center text-white">© 2025 <NuxtLink
                     href="https://www.mkmuniz.dev" class="hover:underline">Mikael™</NuxtLink>. {{
                         $t("footer.rights") }}</span>
         </div>
