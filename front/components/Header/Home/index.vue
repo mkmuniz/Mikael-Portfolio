@@ -1,7 +1,7 @@
 <template>
     <div
       ref="parallaxContainer"
-      class="w-full lg:h-screen text-white font-sans select-none 3xl:container 3xl:mx-auto bg-black overflow-hidden transition-all duration-300 ease-out"
+      class="w-screen lg:h-screen text-white font-sans select-none bg-black overflow-hidden transition-all duration-300 ease-out"
       :style="{
         backgroundImage: `url('${backgroundImage}')`,
         backgroundSize: 'cover',
