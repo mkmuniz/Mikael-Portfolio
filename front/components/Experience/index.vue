@@ -68,7 +68,7 @@ const experiences = [
         time: "experience.ricam_engineer.time",
         description: "experience.ricam_engineer.description",
         stacks: "experience.ricam_engineer.stacks",
-        image: "https://media.licdn.com/dms/image/v2/C4E0BAQHsyagUt6OoNQ/company-logo_200_200/company-logo_200_200/0/1631321610275?e=1746057600&v=beta&t=pwiT1ZFf6ebmHOXZ107m5a_jWhn9weJONJ3fvjo-NNs",
+        image: "https://media.licdn.com/dms/image/v2/C4E0BAQHsyagUt6OoNQ/company-logo_200_200/company-logo_200_200/0/1631321610275?e=2147483647&v=beta&t=YVEH1IzfURKRS9_2XdhVOFA4qSfwWZ8SGTSxdiRQowo",
         link: "https://ricamconsultoria.com.br/",
         imageClass: "rounded-full"
     }
