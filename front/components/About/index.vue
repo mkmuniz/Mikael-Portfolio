@@ -1,5 +1,5 @@
 <template>
-    <div id="about" class="min-h-screen bg-white font-sans py-16">
+    <div id="about" class="min-h-screen flex items-center bg-white font-sans py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="sm:text-4xl text-2xl font-bold relative inline-block">
